@@ -123,6 +123,8 @@ class WallFollowerNode(Node):
         # PID controller state
         self.prev_error = 0.0
         self.integral_error = 0.0
+        self.invalid_scan_warning_period_ns = 5_000_000_000
+        self.last_invalid_scan_warning = {}
         
         # Kalman filters for noise reduction
         self.kalman_left = KalmanFilter1D(process_noise=0.01, measurement_noise=0.05)
@@ -180,69 +182,129 @@ class WallFollowerNode(Node):
     def scan_callback(self, msg):
         """Process LaserScan data."""
         try:
-            ranges = np.array(msg.ranges)
-            
-            # Filter invalid readings
-            valid_mask = (ranges > self.depth_min) & (ranges < self.depth_max)
-            ranges[~valid_mask] = np.nan
-            
+            ranges = np.array(msg.ranges, dtype=float)
+
+            scan_min = msg.range_min if np.isfinite(msg.range_min) else self.depth_min
+            scan_max = msg.range_max if np.isfinite(msg.range_max) else self.depth_max
+            valid_min = max(self.depth_min, scan_min)
+            valid_max = min(self.depth_max, scan_max)
+            fallback_range = scan_max if scan_max > valid_min else self.depth_max
+
+            valid_mask = (
+                np.isfinite(ranges) &
+                (ranges > valid_min) &
+                (ranges < valid_max)
+            )
+            ranges = np.where(valid_mask, ranges, np.nan)
+
             # Divide into sectors
             n = len(ranges)
             third = n // 3
-            
-            depth_left = np.nanmean(ranges[:third])
-            depth_center = np.nanmean(ranges[third:2*third])
-            depth_right = np.nanmean(ranges[2*third:])
-            
-            # Handle NaN
-            if np.isnan(depth_left):
-                depth_left = self.target_wall_distance
-            if np.isnan(depth_center):
-                depth_center = self.target_wall_distance
-            if np.isnan(depth_right):
-                depth_right = self.target_wall_distance
-            
+
+            left_sector = ranges[:third]
+            center_sector = ranges[third:2*third]
+            right_sector = ranges[2*third:]
+
+            left_valid = np.any(np.isfinite(left_sector))
+            center_valid = np.any(np.isfinite(center_sector))
+            right_valid = np.any(np.isfinite(right_sector))
+
+            self.warn_invalid_sector('left', left_valid)
+            self.warn_invalid_sector('front', center_valid)
+            self.warn_invalid_sector('right', right_valid)
+
+            depth_left = self.safe_sector_mean(left_sector, fallback_range)
+            depth_center = self.safe_sector_mean(center_sector, fallback_range)
+            depth_right = self.safe_sector_mean(right_sector, fallback_range)
+
             # Kalman filter
             if self.use_kalman:
                 depth_left = self.kalman_left.filter_measurement(depth_left)
-                depth_center = self.kalman_center.filter_measurement(depth_center)
+                if center_valid:
+                    depth_center = self.kalman_center.filter_measurement(depth_center)
                 depth_right = self.kalman_right.filter_measurement(depth_right)
-            
-            self.compute_control(depth_left, depth_center, depth_right)
+
+            self.compute_control(
+                depth_left,
+                depth_center,
+                depth_right,
+                front_valid=center_valid,
+            )
             
         except Exception as e:
             self.get_logger().error(f'Scan callback error: {e}')
-    
-    def compute_control(self, depth_left, depth_center, depth_right):
+
+    def safe_sector_mean(self, sector, fallback):
+        """Return the mean of valid sector values, or fallback if none exist."""
+        valid_values = sector[np.isfinite(sector)]
+        if valid_values.size == 0:
+            return fallback
+        return float(np.mean(valid_values))
+
+    def warn_invalid_sector(self, sector_name, is_valid):
+        if is_valid:
+            return
+
+        now = self.get_clock().now().nanoseconds
+        last_warning = self.last_invalid_scan_warning.get(sector_name, 0)
+        if now - last_warning < self.invalid_scan_warning_period_ns:
+            return
+
+        self.last_invalid_scan_warning[sector_name] = now
+        self.get_logger().warning(
+            f'Invalid {sector_name} scan sector; using fallback distance'
+        )
+
+    def compute_control(self, depth_left, depth_center, depth_right, front_valid=True):
         """Compute PID-based wall-following control."""
         # Wall-following error (positive = right side too close, steer left)
         error = (depth_right - depth_left) / 2.0
         
         # Front obstacle avoidance
-        if depth_center < self.target_wall_distance * 0.7:
+        if not front_valid:
             forward_speed = 0.0
+            angular_velocity = self.turn_away_from_closest_side(depth_left, depth_right)
+        elif depth_center < 0.35:
+            forward_speed = 0.0
+            angular_velocity = self.turn_away_from_closest_side(depth_left, depth_right)
+        elif depth_center < self.target_wall_distance * 0.7:
+            forward_speed = 0.0
+            angular_velocity = None
         else:
             forward_speed = self.linear_speed
-        
-        # PID
-        self.integral_error += error * 0.1
-        self.integral_error = np.clip(self.integral_error, -1.0, 1.0)
-        
-        derivative = (error - self.prev_error) / 0.1
-        self.prev_error = error
-        
-        angular_velocity = (
-            self.pid_kp * error +
-            self.pid_ki * self.integral_error +
-            self.pid_kd * derivative
-        )
-        angular_velocity = np.clip(angular_velocity, -self.angular_max, self.angular_max)
+            angular_velocity = None
+
+        if angular_velocity is None:
+            # PID
+            self.integral_error += error * 0.1
+            self.integral_error = np.clip(self.integral_error, -1.0, 1.0)
+
+            derivative = (error - self.prev_error) / 0.1
+            self.prev_error = error
+
+            angular_velocity = (
+                self.pid_kp * error +
+                self.pid_ki * self.integral_error +
+                self.pid_kd * derivative
+            )
+            angular_velocity = np.clip(
+                angular_velocity,
+                -self.angular_max,
+                self.angular_max,
+            )
         
         # Publish
         twist = Twist()
         twist.linear.x = float(forward_speed)
         twist.angular.z = float(angular_velocity)
         self.twist_pub.publish(twist)
+
+    def turn_away_from_closest_side(self, depth_left, depth_right):
+        """Rotate away from the closest side obstacle at a controlled speed."""
+        turn_speed = min(0.4, self.angular_max)
+        if depth_left < depth_right:
+            return -turn_speed
+        return turn_speed
 
 
 def main(args=None):

@@ -4,6 +4,11 @@ import os
 
 package_name = 'wall_follower'
 
+
+def files(pattern):
+    return [path for path in glob(pattern) if os.path.isfile(path)]
+
+
 setup(
     name=package_name,
     version='0.0.0',
@@ -27,11 +32,15 @@ setup(
         ),
         (
             os.path.join('share', package_name, 'maps'),
-            glob('maps/*')
+            files('maps/*')
         ),
         (
             os.path.join('share', package_name, 'models'),
-            glob('models/*')
+            files('models/*')
+        ),
+        (
+            os.path.join('share', package_name, 'urdf'),
+            files('urdf/*.urdf')
         ),
         (
             os.path.join('share', package_name, 'rviz'),
@@ -59,6 +68,13 @@ setup(
             'amcl_initializer = wall_follower.amcl_initializer:main',
             'scan_to_pointcloud = wall_follower.scan_to_pointcloud:main',
             'pomdp_goal_selector = wall_follower.pomdp_goal_selector:main',
+            'topic2_relay_adapters = wall_follower.topic2_relay_adapters:main',
+            'topic2_depth_wall_follower = wall_follower.topic2_depth_wall_follower:main',
+            'topic2_enhanced_navigation = wall_follower.topic2_enhanced_navigation:main',
+            'topic2_mapping_tf = wall_follower.topic2_mapping_tf:main',
+            'topic2_goal_pose_bridge = wall_follower.topic2_goal_pose_bridge:main',
+            'topic2_nav2_tf_helper = wall_follower.topic2_nav2_tf_helper:main',
+            'topic2_pointcloud_filter = wall_follower.topic2_pointcloud_filter:main',
         ],
     },
 )
