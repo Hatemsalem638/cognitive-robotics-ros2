@@ -75,6 +75,7 @@ setup(
             'topic2_goal_pose_bridge = wall_follower.topic2_goal_pose_bridge:main',
             'topic2_nav2_tf_helper = wall_follower.topic2_nav2_tf_helper:main',
             'topic2_pointcloud_filter = wall_follower.topic2_pointcloud_filter:main',
+            'topic2_nav2_traffic_rules = wall_follower.topic2_nav2_traffic_rules:main',
         ],
     },
 )
