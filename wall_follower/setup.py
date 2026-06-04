@@ -76,6 +76,7 @@ setup(
             'topic2_nav2_tf_helper = wall_follower.topic2_nav2_tf_helper:main',
             'topic2_pointcloud_filter = wall_follower.topic2_pointcloud_filter:main',
             'topic2_nav2_traffic_rules = wall_follower.topic2_nav2_traffic_rules:main',
+            'topic2_object_counter = wall_follower.topic2_object_counter:main',
         ],
     },
 )
