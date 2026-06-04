@@ -1,0 +1,7 @@
+image: topic2_official_map.pgm
+mode: trinary
+resolution: 0.08
+origin: [-4.88, -4.96, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.25
