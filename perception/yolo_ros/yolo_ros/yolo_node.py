@@ -26,7 +26,7 @@ except Exception:
 class YoloNode(Node):
     def __init__(self):
         super().__init__('yolo_node')
-        self.declare_parameter('model_path', '/home/somto/ros2_coursework_ws/results/trafficsignv2/weights/best.pt')
+        self.declare_parameter('model_path','/work/results/traffic_sign_v1-3/weights/best.pt')
         self.declare_parameter('confidence', 0.40)
         model_path = self.get_parameter('model_path').get_parameter_value().string_value
         self.confidence = self.get_parameter('confidence').get_parameter_value().double_value
@@ -41,7 +41,7 @@ class YoloNode(Node):
             self.get_logger().warn('ultralytics YOLO not installed; node will not run inference')
 
         self.bridge = CvBridge()
-        self.sub = self.create_subscription(Image, '/camera/image_raw', self.image_cb, 10)
+        self.sub = self.create_subscription(Image,'/atlas/rgbd_camera/image',self.image_cb,10)
         if TYPED_MSGS:
             self.pub_typed = self.create_publisher(DetectionArray, '/yolo/detections', 10)
             self.pub_json = self.create_publisher(String, '/yolo/detections_json', 10)
