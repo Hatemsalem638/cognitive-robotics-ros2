@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing scan_filter.egg-info/PKG-INFO
+writing dependency_links to scan_filter.egg-info/dependency_links.txt
+writing entry points to scan_filter.egg-info/entry_points.txt
+writing requirements to scan_filter.egg-info/requires.txt
+writing top-level names to scan_filter.egg-info/top_level.txt
+reading manifest file 'scan_filter.egg-info/SOURCES.txt'
+writing manifest file 'scan_filter.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/install/scan_filter/lib/python3.10/site-packages/scan-filter.egg-link (link to .)
+Installing scan_filter_node script to /work/install/scan_filter/lib/scan_filter
+
+Installed /work/build/scan_filter
+running symlink_data

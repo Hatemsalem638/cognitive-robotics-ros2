@@ -1,0 +1,4 @@
+/work/build/octomap_msgs/rosidl_adapter/octomap_msgs:msg/Octomap.idl
+/work/build/octomap_msgs/rosidl_adapter/octomap_msgs:msg/OctomapWithPose.idl
+/work/build/octomap_msgs/rosidl_adapter/octomap_msgs:srv/BoundingBoxQuery.idl
+/work/build/octomap_msgs/rosidl_adapter/octomap_msgs:srv/GetOctomap.idl

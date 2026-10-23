@@ -1,0 +1,8 @@
+{
+  "package_name": "yolo_msgs",
+  "non_idl_tuples": [
+    "/work/perception/yolo_msgs:msg/Detection.msg",
+    "/work/perception/yolo_msgs:msg/DetectionArray.msg",
+    "/work/perception/yolo_msgs:srv/StoreLandmark.srv"
+  ]
+}

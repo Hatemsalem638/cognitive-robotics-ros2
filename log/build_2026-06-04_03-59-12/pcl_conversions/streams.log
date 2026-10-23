@@ -1,0 +1,27 @@
+[7.098s] Invoking command in '/work/build/pcl_conversions': CMAKE_PREFIX_PATH=/work/install/pcl_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/pcl_conversions:/work/install/odom_to_tf_ros2:/work/install/octomap_msgs:/work/install/ntu_robotsim:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble LD_LIBRARY_PATH=/work/install/pcl_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/work/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /work/build/pcl_conversions -- -j20 -l20
+[12.577s] [ 66%] Built target gtest_main
+[12.596s] [ 66%] Built target gtest
+[17.866s] [100%] Built target pcl_conversions-test
+[20.918s] Invoked command in '/work/build/pcl_conversions' returned '0': CMAKE_PREFIX_PATH=/work/install/pcl_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/pcl_conversions:/work/install/odom_to_tf_ros2:/work/install/octomap_msgs:/work/install/ntu_robotsim:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble LD_LIBRARY_PATH=/work/install/pcl_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/work/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /work/build/pcl_conversions -- -j20 -l20
+[20.985s] Invoking command in '/work/build/pcl_conversions': CMAKE_PREFIX_PATH=/work/install/pcl_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/pcl_conversions:/work/install/odom_to_tf_ros2:/work/install/octomap_msgs:/work/install/ntu_robotsim:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble LD_LIBRARY_PATH=/work/install/pcl_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/work/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /work/build/pcl_conversions
+[21.718s] -- Install configuration: "Release"
+[21.756s] -- Execute custom install script
+[22.068s] -- Up-to-date symlink: /work/install/pcl_conversions/include/pcl_conversions/pcl_conversions/pcl_conversions.h
+[22.208s] -- Up-to-date symlink: /work/install/pcl_conversions/share/ament_index/resource_index/package_run_dependencies/pcl_conversions
+[22.354s] -- Up-to-date symlink: /work/install/pcl_conversions/share/ament_index/resource_index/parent_prefix_path/pcl_conversions
+[22.419s] -- Up-to-date symlink: /work/install/pcl_conversions/share/pcl_conversions/environment/ament_prefix_path.sh
+[22.487s] -- Up-to-date symlink: /work/install/pcl_conversions/share/pcl_conversions/environment/ament_prefix_path.dsv
+[22.525s] -- Up-to-date symlink: /work/install/pcl_conversions/share/pcl_conversions/environment/path.sh
+[22.623s] -- Up-to-date symlink: /work/install/pcl_conversions/share/pcl_conversions/environment/path.dsv
+[22.679s] -- Up-to-date symlink: /work/install/pcl_conversions/share/pcl_conversions/local_setup.bash
+[22.731s] -- Up-to-date symlink: /work/install/pcl_conversions/share/pcl_conversions/local_setup.sh
+[22.809s] -- Up-to-date symlink: /work/install/pcl_conversions/share/pcl_conversions/local_setup.zsh
+[22.848s] -- Up-to-date symlink: /work/install/pcl_conversions/share/pcl_conversions/local_setup.dsv
+[22.875s] -- Symlinking: /work/install/pcl_conversions/share/pcl_conversions/package.dsv
+[23.909s] -- Up-to-date symlink: /work/install/pcl_conversions/share/ament_index/resource_index/packages/pcl_conversions
+[23.969s] -- Up-to-date symlink: /work/install/pcl_conversions/share/pcl_conversions/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.079s] -- Up-to-date symlink: /work/install/pcl_conversions/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.149s] -- Up-to-date symlink: /work/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake
+[24.229s] -- Up-to-date symlink: /work/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig-version.cmake
+[24.322s] -- Up-to-date symlink: /work/install/pcl_conversions/share/pcl_conversions/package.xml
+[24.386s] Invoked command in '/work/build/pcl_conversions' returned '0': CMAKE_PREFIX_PATH=/work/install/pcl_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/pcl_conversions:/work/install/odom_to_tf_ros2:/work/install/octomap_msgs:/work/install/ntu_robotsim:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble LD_LIBRARY_PATH=/work/install/pcl_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/work/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /work/build/pcl_conversions

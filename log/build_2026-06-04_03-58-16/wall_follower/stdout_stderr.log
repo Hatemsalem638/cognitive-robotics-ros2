@@ -1,0 +1,79 @@
+running develop
+running egg_info
+creating wall_follower.egg-info
+writing wall_follower.egg-info/PKG-INFO
+writing dependency_links to wall_follower.egg-info/dependency_links.txt
+writing entry points to wall_follower.egg-info/entry_points.txt
+writing requirements to wall_follower.egg-info/requires.txt
+writing top-level names to wall_follower.egg-info/top_level.txt
+writing manifest file 'wall_follower.egg-info/SOURCES.txt'
+reading manifest file 'wall_follower.egg-info/SOURCES.txt'
+writing manifest file 'wall_follower.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/install/wall_follower/lib/python3.10/site-packages/wall-follower.egg-link (link to .)
+Installing amcl_initializer script to /work/install/wall_follower/lib/wall_follower
+Installing pomdp_goal_selector script to /work/install/wall_follower/lib/wall_follower
+Installing scan_to_pointcloud script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_depth_wall_follower script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_enhanced_navigation script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_goal_pose_bridge script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_mapping_tf script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_nav2_tf_helper script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_pointcloud_filter script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_relay_adapters script to /work/install/wall_follower/lib/wall_follower
+Installing wall_follower_node script to /work/install/wall_follower/lib/wall_follower
+
+Installed /work/build/wall_follower
+running symlink_data
+creating /work/install/wall_follower/share/ament_index
+creating /work/install/wall_follower/share/ament_index/resource_index
+creating /work/install/wall_follower/share/ament_index/resource_index/packages
+symbolically linking /work/build/wall_follower/resource/wall_follower -> /work/install/wall_follower/share/ament_index/resource_index/packages
+symbolically linking /work/build/wall_follower/package.xml -> /work/install/wall_follower/share/wall_follower
+creating /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/maze.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/nav2.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/nav2_sim.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/octomap.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/odom_to_tf.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/official_classic_world.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/official_mapping.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/official_nav2_sim.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/official_world.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/single_robot_sim.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/topic2_depth_wall_following.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/topic2_enhanced_navigation.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/topic2_nav2.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/topic2_octomap_with_nav2.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/topic2_official_adapters.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/topic2_official_octomap.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/topic2_official_robot_bridge.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/topic2_official_system.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/topic2_wall_following.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+symbolically linking /work/build/wall_follower/launch/wall_follower_system.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+creating /work/install/wall_follower/share/wall_follower/config
+symbolically linking /work/build/wall_follower/config/nav2_params.yaml -> /work/install/wall_follower/share/wall_follower/config
+symbolically linking /work/build/wall_follower/config/official_goals.yaml -> /work/install/wall_follower/share/wall_follower/config
+symbolically linking /work/build/wall_follower/config/slam_toolbox_official.yaml -> /work/install/wall_follower/share/wall_follower/config
+symbolically linking /work/build/wall_follower/config/topic2_nav2_params.yaml -> /work/install/wall_follower/share/wall_follower/config
+symbolically linking /work/build/wall_follower/config/wall_follower.yaml -> /work/install/wall_follower/share/wall_follower/config
+creating /work/install/wall_follower/share/wall_follower/maps
+symbolically linking /work/build/wall_follower/maps/create_maze_map.py -> /work/install/wall_follower/share/wall_follower/maps
+symbolically linking /work/build/wall_follower/maps/create_topic2_nav2_clean_map.py -> /work/install/wall_follower/share/wall_follower/maps
+symbolically linking /work/build/wall_follower/maps/maze_map.pgm -> /work/install/wall_follower/share/wall_follower/maps
+symbolically linking /work/build/wall_follower/maps/maze_map.yaml -> /work/install/wall_follower/share/wall_follower/maps
+symbolically linking /work/build/wall_follower/maps/official_maze_map.pgm -> /work/install/wall_follower/share/wall_follower/maps
+symbolically linking /work/build/wall_follower/maps/official_maze_map.yaml -> /work/install/wall_follower/share/wall_follower/maps
+symbolically linking /work/build/wall_follower/maps/topic2_nav2_clean_map.pgm -> /work/install/wall_follower/share/wall_follower/maps
+symbolically linking /work/build/wall_follower/maps/topic2_nav2_clean_map.yaml -> /work/install/wall_follower/share/wall_follower/maps
+symbolically linking /work/build/wall_follower/maps/topic2_official_map.pgm -> /work/install/wall_follower/share/wall_follower/maps
+symbolically linking /work/build/wall_follower/maps/topic2_official_map.yaml -> /work/install/wall_follower/share/wall_follower/maps
+creating /work/install/wall_follower/share/wall_follower/models
+symbolically linking /work/build/wall_follower/models/cwmaze_classic.sdf -> /work/install/wall_follower/share/wall_follower/models
+creating /work/install/wall_follower/share/wall_follower/urdf
+symbolically linking /work/build/wall_follower/urdf/topic2_atlas_rviz.urdf -> /work/install/wall_follower/share/wall_follower/urdf
+creating /work/install/wall_follower/share/wall_follower/rviz
+symbolically linking /work/build/wall_follower/rviz/official_mapping.rviz -> /work/install/wall_follower/share/wall_follower/rviz
+symbolically linking /work/build/wall_follower/rviz/topic2_nav2.rviz -> /work/install/wall_follower/share/wall_follower/rviz
+symbolically linking /work/build/wall_follower/rviz/topic2_octomap.rviz -> /work/install/wall_follower/share/wall_follower/rviz
+symbolically linking /work/build/wall_follower/README.md -> /work/install/wall_follower/share/wall_follower

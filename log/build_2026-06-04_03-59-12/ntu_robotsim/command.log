@@ -1,0 +1,4 @@
+Invoking command in '/work/build/ntu_robotsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /work/build/ntu_robotsim -- -j20 -l20
+Invoked command in '/work/build/ntu_robotsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /work/build/ntu_robotsim -- -j20 -l20
+Invoking command in '/work/build/ntu_robotsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /work/build/ntu_robotsim
+Invoked command in '/work/build/ntu_robotsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /work/build/ntu_robotsim

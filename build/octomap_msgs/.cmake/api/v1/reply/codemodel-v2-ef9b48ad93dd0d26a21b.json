@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d676cbd4e0bd6a8b2f08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "octomap_msgs__py",
+					"jsonFile" : "directory-octomap_msgs__py-Release-96d5a018a4c045a39a9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/work/build/octomap_msgs/octomap_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "octomap_msgs__rs",
+					"jsonFile" : "directory-octomap_msgs__rs-Release-b6cf049eba01bf4d3b37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/work/build/octomap_msgs/octomap_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "octomap_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_octomap_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_octomap_msgs_egg-Release-e3e434dac5c14b277e38.json",
+					"name" : "ament_cmake_python_build_octomap_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_octomap_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_octomap_msgs-Release-7a45d72ce942744302ea.json",
+					"name" : "ament_cmake_python_symlink_octomap_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs-Release-c7adf669a5fe30259ea0.json",
+					"name" : "octomap_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs__cpp-Release-50e913b13cb13ecaef75.json",
+					"name" : "octomap_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "octomap_msgs__py::@95075e219481cbba829a",
+					"jsonFile" : "target-octomap_msgs__py-Release-096ed27f6793a6969654.json",
+					"name" : "octomap_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs__rosidl_generator_c-Release-9e61c4161448e586f3fd.json",
+					"name" : "octomap_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs__rosidl_generator_py-Release-eddab11106d2d6b670d3.json",
+					"name" : "octomap_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs__rosidl_typesupport_c-Release-d096fba4bd0b086ab7dd.json",
+					"name" : "octomap_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs__rosidl_typesupport_c__pyext-Release-4292ae010d60ac3ea65c.json",
+					"name" : "octomap_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs__rosidl_typesupport_cpp-Release-7e0430cfb8e8878cdb0e.json",
+					"name" : "octomap_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs__rosidl_typesupport_fastrtps_c-Release-32fdc5791c17993a95c3.json",
+					"name" : "octomap_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs__rosidl_typesupport_fastrtps_c__pyext-Release-b5995e65391941e9830f.json",
+					"name" : "octomap_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs__rosidl_typesupport_fastrtps_cpp-Release-2a5b4a611d62e1cc0b74.json",
+					"name" : "octomap_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs__rosidl_typesupport_introspection_c-Release-afa30de94b1f88e6c3a3.json",
+					"name" : "octomap_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs__rosidl_typesupport_introspection_c__pyext-Release-b48493cf0f95495e559e.json",
+					"name" : "octomap_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs__rosidl_typesupport_introspection_cpp-Release-356a5a14f2c5cdcdfc8e.json",
+					"name" : "octomap_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "octomap_msgs__rs::@beaf6608ae7bb2c9787f",
+					"jsonFile" : "target-octomap_msgs__rs-Release-a1dbca2fbca87eff87dd.json",
+					"name" : "octomap_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_msgs_uninstall-Release-d805254243a21479fc1b.json",
+					"name" : "octomap_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-9316cdb7ebd605a48150.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/work/build/octomap_msgs",
+		"source" : "/work/external/NTU_COMP30271_CW_RobotSim/octomap2/octomap_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

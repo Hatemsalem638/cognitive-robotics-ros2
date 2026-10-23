@@ -1,0 +1,9 @@
+{
+  "package_name": "octomap_msgs",
+  "non_idl_tuples": [
+    "/work/external/NTU_COMP30271_CW_RobotSim/octomap2/octomap_msgs:msg/Octomap.msg",
+    "/work/external/NTU_COMP30271_CW_RobotSim/octomap2/octomap_msgs:msg/OctomapWithPose.msg",
+    "/work/external/NTU_COMP30271_CW_RobotSim/octomap2/octomap_msgs:srv/BoundingBoxQuery.srv",
+    "/work/external/NTU_COMP30271_CW_RobotSim/octomap2/octomap_msgs:srv/GetOctomap.srv"
+  ]
+}

@@ -1,0 +1,27 @@
+[1.684s] Invoking command in '/work/build/octomap_server2': CMAKE_PREFIX_PATH=/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/octomap_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/odom_to_tf_ros2:/work/install/ntu_robotsim:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble LD_LIBRARY_PATH=/work/install/pcl_msgs/lib:/work/install/octomap_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /work/build/octomap_server2 -- -j20 -l20
+[9.317s] [ 33%] Built target octomap_server
+[11.453s] [100%] Built target octomap_server2
+[13.722s] Invoked command in '/work/build/octomap_server2' returned '0': CMAKE_PREFIX_PATH=/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/octomap_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/odom_to_tf_ros2:/work/install/ntu_robotsim:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble LD_LIBRARY_PATH=/work/install/pcl_msgs/lib:/work/install/octomap_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /work/build/octomap_server2 -- -j20 -l20
+[13.854s] Invoking command in '/work/build/octomap_server2': CMAKE_PREFIX_PATH=/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/octomap_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/odom_to_tf_ros2:/work/install/ntu_robotsim:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble LD_LIBRARY_PATH=/work/install/pcl_msgs/lib:/work/install/octomap_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /work/build/octomap_server2
+[14.639s] -- Install configuration: "Release"
+[14.720s] -- Execute custom install script
+[14.831s] -- Up-to-date symlink: /work/install/octomap_server2/lib/octomap_server2/octomap_server
+[14.911s] -- Up-to-date symlink: /work/install/octomap_server2/lib/liboctomap_server2.so
+[15.163s] -- Up-to-date symlink: /work/install/octomap_server2/share/octomap_server2//launch/octomap_server_launch.py
+[15.334s] -- Up-to-date symlink: /work/install/octomap_server2/share/ament_index/resource_index/package_run_dependencies/octomap_server2
+[15.507s] -- Up-to-date symlink: /work/install/octomap_server2/share/ament_index/resource_index/parent_prefix_path/octomap_server2
+[15.557s] -- Up-to-date symlink: /work/install/octomap_server2/share/octomap_server2/environment/ament_prefix_path.sh
+[15.624s] -- Up-to-date symlink: /work/install/octomap_server2/share/octomap_server2/environment/ament_prefix_path.dsv
+[15.690s] -- Up-to-date symlink: /work/install/octomap_server2/share/octomap_server2/environment/path.sh
+[15.744s] -- Up-to-date symlink: /work/install/octomap_server2/share/octomap_server2/environment/path.dsv
+[15.805s] -- Up-to-date symlink: /work/install/octomap_server2/share/octomap_server2/local_setup.bash
+[15.901s] -- Up-to-date symlink: /work/install/octomap_server2/share/octomap_server2/local_setup.sh
+[15.970s] -- Up-to-date symlink: /work/install/octomap_server2/share/octomap_server2/local_setup.zsh
+[16.045s] -- Up-to-date symlink: /work/install/octomap_server2/share/octomap_server2/local_setup.dsv
+[16.064s] -- Symlinking: /work/install/octomap_server2/share/octomap_server2/package.dsv
+[17.113s] -- Up-to-date symlink: /work/install/octomap_server2/share/ament_index/resource_index/packages/octomap_server2
+[17.309s] -- Up-to-date symlink: /work/install/octomap_server2/share/ament_index/resource_index/rclcpp_components/octomap_server2
+[17.408s] -- Up-to-date symlink: /work/install/octomap_server2/share/octomap_server2/cmake/octomap_server2Config.cmake
+[17.479s] -- Up-to-date symlink: /work/install/octomap_server2/share/octomap_server2/cmake/octomap_server2Config-version.cmake
+[17.614s] -- Up-to-date symlink: /work/install/octomap_server2/share/octomap_server2/package.xml
+[17.628s] Invoked command in '/work/build/octomap_server2' returned '0': CMAKE_PREFIX_PATH=/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/octomap_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/odom_to_tf_ros2:/work/install/ntu_robotsim:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble LD_LIBRARY_PATH=/work/install/pcl_msgs/lib:/work/install/octomap_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /work/build/octomap_server2

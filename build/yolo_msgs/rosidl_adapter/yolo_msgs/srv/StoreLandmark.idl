@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from yolo_msgs/srv/StoreLandmark.srv
+// generated code does not contain a copyright notice
+
+
+module yolo_msgs {
+  module srv {
+    struct StoreLandmark_Request {
+      string label;
+
+      float x;
+
+      float y;
+
+      float z;
+
+      float confidence;
+    };
+    struct StoreLandmark_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

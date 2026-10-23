@@ -1,0 +1,15 @@
+/work/install/perception_pcl/share/ament_index/resource_index/package_run_dependencies/perception_pcl
+/work/install/perception_pcl/share/ament_index/resource_index/parent_prefix_path/perception_pcl
+/work/install/perception_pcl/share/perception_pcl/environment/ament_prefix_path.sh
+/work/install/perception_pcl/share/perception_pcl/environment/ament_prefix_path.dsv
+/work/install/perception_pcl/share/perception_pcl/environment/path.sh
+/work/install/perception_pcl/share/perception_pcl/environment/path.dsv
+/work/install/perception_pcl/share/perception_pcl/local_setup.bash
+/work/install/perception_pcl/share/perception_pcl/local_setup.sh
+/work/install/perception_pcl/share/perception_pcl/local_setup.zsh
+/work/install/perception_pcl/share/perception_pcl/local_setup.dsv
+/work/install/perception_pcl/share/perception_pcl/package.dsv
+/work/install/perception_pcl/share/ament_index/resource_index/packages/perception_pcl
+/work/install/perception_pcl/share/perception_pcl/cmake/perception_pclConfig.cmake
+/work/install/perception_pcl/share/perception_pcl/cmake/perception_pclConfig-version.cmake
+/work/install/perception_pcl/share/perception_pcl/package.xml

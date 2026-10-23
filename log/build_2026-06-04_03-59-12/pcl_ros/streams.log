@@ -1,0 +1,107 @@
+[1.471s] Invoking command in '/work/build/pcl_ros': CMAKE_PREFIX_PATH=/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/odom_to_tf_ros2:/work/install/octomap_msgs:/work/install/ntu_robotsim:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble LD_LIBRARY_PATH=/work/install/pcl_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/work/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /work/build/pcl_ros -- -j20 -l20
+[8.547s] [  5%] Built target filter_extract_indices_node
+[8.894s] [ 11%] Built target filter_passthrough_node
+[10.246s] [ 17%] Built target pcl_ros_tf
+[13.986s] [ 22%] Built target dummy_topics
+[20.177s] [ 48%] Built target pcl_ros_filters
+[22.952s] [ 54%] Built target pointcloud_to_pcd
+[26.551s] [ 60%] Built target pointcloud_to_pcd_lib
+[29.321s] [ 65%] Built target pcd_to_pointcloud
+[32.663s] [ 71%] Built target pcd_to_pointcloud_lib
+[35.078s] [ 77%] Built target filter_voxel_grid_node
+[38.164s] [ 82%] Built target filter_crop_box_node
+[40.892s] [ 88%] Built target filter_statistical_outlier_removal_node
+[43.343s] [ 94%] Built target filter_radius_outlier_removal_node
+[45.978s] [100%] Built target filter_project_inliers_node
+[47.060s] Invoked command in '/work/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/odom_to_tf_ros2:/work/install/octomap_msgs:/work/install/ntu_robotsim:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble LD_LIBRARY_PATH=/work/install/pcl_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/work/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /work/build/pcl_ros -- -j20 -l20
+[47.158s] Invoking command in '/work/build/pcl_ros': CMAKE_PREFIX_PATH=/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/odom_to_tf_ros2:/work/install/octomap_msgs:/work/install/ntu_robotsim:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble LD_LIBRARY_PATH=/work/install/pcl_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/work/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /work/build/pcl_ros
+[48.015s] -- Install configuration: "Release"
+[48.185s] -- Execute custom install script
+[48.294s] -- Up-to-date symlink: /work/install/pcl_ros/lib/pcl_ros/filter_extract_indices_node
+[48.431s] -- Up-to-date symlink: /work/install/pcl_ros/lib/pcl_ros/filter_passthrough_node
+[48.705s] -- Up-to-date symlink: /work/install/pcl_ros/lib/pcl_ros/filter_project_inliers_node
+[48.801s] -- Up-to-date symlink: /work/install/pcl_ros/lib/pcl_ros/filter_radius_outlier_removal_node
+[48.951s] -- Up-to-date symlink: /work/install/pcl_ros/lib/pcl_ros/filter_statistical_outlier_removal_node
+[49.085s] -- Up-to-date symlink: /work/install/pcl_ros/lib/pcl_ros/filter_crop_box_node
+[49.202s] -- Up-to-date symlink: /work/install/pcl_ros/lib/pcl_ros/filter_voxel_grid_node
+[49.362s] -- Up-to-date symlink: /work/install/pcl_ros/lib/pcl_ros/pcd_to_pointcloud
+[49.492s] -- Up-to-date symlink: /work/install/pcl_ros/lib/pcl_ros/pointcloud_to_pcd
+[51.149s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/features/boundary.hpp
+[51.360s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/features/feature.hpp
+[51.646s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/features/fpfh.hpp
+[51.861s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/features/fpfh_omp.hpp
+[52.056s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/features/moment_invariants.hpp
+[52.322s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d.hpp
+[52.579s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d_omp.hpp
+[52.813s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d_tbb.hpp
+[53.087s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/features/pfh.hpp
+[53.344s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/features/principal_curvatures.hpp
+[53.580s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/features/shot.hpp
+[53.839s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/features/shot_omp.hpp
+[54.078s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/features/vfh.hpp
+[54.319s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/filters/crop_box.hpp
+[54.572s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/filters/extract_indices.hpp
+[54.865s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/filters/filter.hpp
+[55.104s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/filters/passthrough.hpp
+[55.352s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/filters/project_inliers.hpp
+[55.623s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/filters/radius_outlier_removal.hpp
+[55.887s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/filters/statistical_outlier_removal.hpp
+[56.144s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/filters/voxel_grid.hpp
+[56.430s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/impl/transforms.hpp
+[56.699s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/io/bag_io.hpp
+[57.023s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/io/concatenate_data.hpp
+[57.257s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/io/concatenate_fields.hpp
+[57.485s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/io/pcd_io.hpp
+[57.685s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/pcl_node.hpp
+[57.923s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/point_cloud.hpp
+[58.088s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/publisher.hpp
+[58.325s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_clusters.hpp
+[58.549s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_polygonal_prism_data.hpp
+[58.825s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/sac_segmentation.hpp
+[59.146s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/segment_differences.hpp
+[59.375s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/surface/convex_hull.hpp
+[59.604s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/surface/moving_least_squares.hpp
+[59.766s] -- Up-to-date symlink: /work/install/pcl_ros/include/pcl_ros/pcl_ros/transforms.hpp
+[60.175s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_features.xml
+[60.363s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_filters.xml
+[60.575s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_io.xml
+[60.777s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_segmentation.xml
+[60.945s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_surface.xml
+[61.816s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/samples/data/.gitignore
+[62.116s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features/sample_normal_3d.launch
+[62.508s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/statistical_outlier_removal.rviz
+[62.825s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/voxel_grid.rviz
+[63.043s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_statistical_outlier_removal.launch
+[63.281s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_voxel_grid.launch
+[63.494s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io/sample_concatenate_data.launch
+[63.712s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation/sample_extract_clusters.launch
+[63.913s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface/sample_convex_hull.launch
+[63.951s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/environment/library_path.sh
+[64.005s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/environment/library_path.dsv
+[64.177s] -- Up-to-date symlink: /work/install/pcl_ros/share/ament_index/resource_index/package_run_dependencies/pcl_ros
+[64.312s] -- Up-to-date symlink: /work/install/pcl_ros/share/ament_index/resource_index/parent_prefix_path/pcl_ros
+[64.366s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.sh
+[64.424s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.dsv
+[64.461s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/environment/path.sh
+[64.532s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/environment/path.dsv
+[64.576s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/local_setup.bash
+[64.622s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/local_setup.sh
+[64.678s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/local_setup.zsh
+[64.720s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/local_setup.dsv
+[64.755s] -- Symlinking: /work/install/pcl_ros/share/pcl_ros/package.dsv
+[65.688s] -- Up-to-date symlink: /work/install/pcl_ros/share/ament_index/resource_index/packages/pcl_ros
+[65.851s] -- Up-to-date symlink: /work/install/pcl_ros/share/ament_index/resource_index/rclcpp_components/pcl_ros
+[65.919s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[65.996s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[66.083s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_targets-extras.cmake
+[66.151s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[66.245s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig.cmake
+[66.291s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig-version.cmake
+[66.434s] -- Up-to-date symlink: /work/install/pcl_ros/share/pcl_ros/package.xml
+[66.465s] -- Up-to-date: /work/install/pcl_ros/lib/libpcl_ros_tf.a
+[66.624s] -- Up-to-date: /work/install/pcl_ros/lib/libpcd_to_pointcloud_lib.so
+[66.848s] -- Up-to-date: /work/install/pcl_ros/lib/libpcl_ros_filters.so
+[67.076s] -- Up-to-date: /work/install/pcl_ros/lib/libpointcloud_to_pcd_lib.so
+[67.331s] -- Up-to-date: /work/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport.cmake
+[67.412s] -- Up-to-date: /work/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport-release.cmake
+[67.516s] Invoked command in '/work/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/odom_to_tf_ros2:/work/install/octomap_msgs:/work/install/ntu_robotsim:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble LD_LIBRARY_PATH=/work/install/pcl_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/work/install/octomap_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /work/build/pcl_ros

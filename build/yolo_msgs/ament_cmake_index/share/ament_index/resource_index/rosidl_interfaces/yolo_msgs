@@ -1,0 +1,8 @@
+msg/Detection.idl
+msg/Detection.msg
+msg/DetectionArray.idl
+msg/DetectionArray.msg
+srv/StoreLandmark.idl
+srv/StoreLandmark.srv
+srv/StoreLandmark_Request.msg
+srv/StoreLandmark_Response.msg

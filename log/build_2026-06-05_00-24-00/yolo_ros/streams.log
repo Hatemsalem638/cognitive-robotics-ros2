@@ -1,0 +1,22 @@
+[25.455s] Invoking command in '/work/build/yolo_ros': PYTHONPATH=/work/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/yolo_ros/build --no-deps symlink_data
+[36.345s] running develop
+[39.130s] running egg_info
+[39.137s] writing yolo_ros.egg-info/PKG-INFO
+[39.154s] writing dependency_links to yolo_ros.egg-info/dependency_links.txt
+[39.169s] writing entry points to yolo_ros.egg-info/entry_points.txt
+[39.187s] writing requirements to yolo_ros.egg-info/requires.txt
+[39.202s] writing top-level names to yolo_ros.egg-info/top_level.txt
+[39.488s] reading manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[39.907s] writing manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[40.049s] running build_ext
+[40.049s] Creating /work/install/yolo_ros/lib/python3.10/site-packages/yolo-ros.egg-link (link to .)
+[40.152s] Installing curiosity_explorer script to /work/install/yolo_ros/lib/yolo_ros
+[40.249s] Installing goal_publisher script to /work/install/yolo_ros/lib/yolo_ros
+[40.316s] Installing landmark_db script to /work/install/yolo_ros/lib/yolo_ros
+[40.405s] Installing resource_monitor script to /work/install/yolo_ros/lib/yolo_ros
+[40.462s] Installing sign_controller script to /work/install/yolo_ros/lib/yolo_ros
+[40.527s] Installing yolo_node script to /work/install/yolo_ros/lib/yolo_ros
+[40.602s] 
+[40.607s] Installed /work/build/yolo_ros
+[40.624s] running symlink_data
+[41.088s] Invoked command in '/work/build/yolo_ros' returned '0': PYTHONPATH=/work/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/yolo_ros/build --no-deps symlink_data

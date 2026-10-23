@@ -1,0 +1,81 @@
+[17.822s] Invoking command in '/work/build/wall_follower': CMAKE_PREFIX_PATH=/work/install/octomap_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/odom_to_tf_ros2:/work/install/ntu_robotsim LD_LIBRARY_PATH=/work/install/octomap_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/work/install/pcl_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/work/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/wall_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/wall_follower/build --no-deps symlink_data
+[24.216s] running develop
+[25.838s] running egg_info
+[25.840s] creating wall_follower.egg-info
+[25.842s] writing wall_follower.egg-info/PKG-INFO
+[25.873s] writing dependency_links to wall_follower.egg-info/dependency_links.txt
+[25.883s] writing entry points to wall_follower.egg-info/entry_points.txt
+[25.898s] writing requirements to wall_follower.egg-info/requires.txt
+[25.907s] writing top-level names to wall_follower.egg-info/top_level.txt
+[25.918s] writing manifest file 'wall_follower.egg-info/SOURCES.txt'
+[26.887s] reading manifest file 'wall_follower.egg-info/SOURCES.txt'
+[27.474s] writing manifest file 'wall_follower.egg-info/SOURCES.txt'
+[27.556s] running build_ext
+[27.566s] Creating /work/install/wall_follower/lib/python3.10/site-packages/wall-follower.egg-link (link to .)
+[27.643s] Installing amcl_initializer script to /work/install/wall_follower/lib/wall_follower
+[27.670s] Installing pomdp_goal_selector script to /work/install/wall_follower/lib/wall_follower
+[27.708s] Installing scan_to_pointcloud script to /work/install/wall_follower/lib/wall_follower
+[27.749s] Installing topic2_depth_wall_follower script to /work/install/wall_follower/lib/wall_follower
+[27.784s] Installing topic2_enhanced_navigation script to /work/install/wall_follower/lib/wall_follower
+[27.816s] Installing topic2_goal_pose_bridge script to /work/install/wall_follower/lib/wall_follower
+[27.860s] Installing topic2_mapping_tf script to /work/install/wall_follower/lib/wall_follower
+[27.896s] Installing topic2_nav2_tf_helper script to /work/install/wall_follower/lib/wall_follower
+[27.929s] Installing topic2_pointcloud_filter script to /work/install/wall_follower/lib/wall_follower
+[28.005s] Installing topic2_relay_adapters script to /work/install/wall_follower/lib/wall_follower
+[28.050s] Installing wall_follower_node script to /work/install/wall_follower/lib/wall_follower
+[28.088s] 
+[28.090s] Installed /work/build/wall_follower
+[28.096s] running symlink_data
+[28.111s] creating /work/install/wall_follower/share/ament_index
+[28.115s] creating /work/install/wall_follower/share/ament_index/resource_index
+[28.131s] creating /work/install/wall_follower/share/ament_index/resource_index/packages
+[28.161s] symbolically linking /work/build/wall_follower/resource/wall_follower -> /work/install/wall_follower/share/ament_index/resource_index/packages
+[28.197s] symbolically linking /work/build/wall_follower/package.xml -> /work/install/wall_follower/share/wall_follower
+[28.212s] creating /work/install/wall_follower/share/wall_follower/launch
+[28.261s] symbolically linking /work/build/wall_follower/launch/maze.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.313s] symbolically linking /work/build/wall_follower/launch/nav2.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.368s] symbolically linking /work/build/wall_follower/launch/nav2_sim.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.408s] symbolically linking /work/build/wall_follower/launch/octomap.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.464s] symbolically linking /work/build/wall_follower/launch/odom_to_tf.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.511s] symbolically linking /work/build/wall_follower/launch/official_classic_world.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.553s] symbolically linking /work/build/wall_follower/launch/official_mapping.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.612s] symbolically linking /work/build/wall_follower/launch/official_nav2_sim.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.665s] symbolically linking /work/build/wall_follower/launch/official_world.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.711s] symbolically linking /work/build/wall_follower/launch/single_robot_sim.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.764s] symbolically linking /work/build/wall_follower/launch/topic2_depth_wall_following.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.838s] symbolically linking /work/build/wall_follower/launch/topic2_enhanced_navigation.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.888s] symbolically linking /work/build/wall_follower/launch/topic2_nav2.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.921s] symbolically linking /work/build/wall_follower/launch/topic2_octomap_with_nav2.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[28.986s] symbolically linking /work/build/wall_follower/launch/topic2_official_adapters.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[29.036s] symbolically linking /work/build/wall_follower/launch/topic2_official_octomap.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[29.093s] symbolically linking /work/build/wall_follower/launch/topic2_official_robot_bridge.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[29.154s] symbolically linking /work/build/wall_follower/launch/topic2_official_system.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[29.206s] symbolically linking /work/build/wall_follower/launch/topic2_wall_following.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[29.256s] symbolically linking /work/build/wall_follower/launch/wall_follower_system.launch.py -> /work/install/wall_follower/share/wall_follower/launch
+[29.276s] creating /work/install/wall_follower/share/wall_follower/config
+[29.317s] symbolically linking /work/build/wall_follower/config/nav2_params.yaml -> /work/install/wall_follower/share/wall_follower/config
+[29.368s] symbolically linking /work/build/wall_follower/config/official_goals.yaml -> /work/install/wall_follower/share/wall_follower/config
+[29.409s] symbolically linking /work/build/wall_follower/config/slam_toolbox_official.yaml -> /work/install/wall_follower/share/wall_follower/config
+[29.467s] symbolically linking /work/build/wall_follower/config/topic2_nav2_params.yaml -> /work/install/wall_follower/share/wall_follower/config
+[29.513s] symbolically linking /work/build/wall_follower/config/wall_follower.yaml -> /work/install/wall_follower/share/wall_follower/config
+[29.530s] creating /work/install/wall_follower/share/wall_follower/maps
+[29.570s] symbolically linking /work/build/wall_follower/maps/create_maze_map.py -> /work/install/wall_follower/share/wall_follower/maps
+[29.630s] symbolically linking /work/build/wall_follower/maps/create_topic2_nav2_clean_map.py -> /work/install/wall_follower/share/wall_follower/maps
+[29.669s] symbolically linking /work/build/wall_follower/maps/maze_map.pgm -> /work/install/wall_follower/share/wall_follower/maps
+[29.735s] symbolically linking /work/build/wall_follower/maps/maze_map.yaml -> /work/install/wall_follower/share/wall_follower/maps
+[29.785s] symbolically linking /work/build/wall_follower/maps/official_maze_map.pgm -> /work/install/wall_follower/share/wall_follower/maps
+[29.857s] symbolically linking /work/build/wall_follower/maps/official_maze_map.yaml -> /work/install/wall_follower/share/wall_follower/maps
+[29.905s] symbolically linking /work/build/wall_follower/maps/topic2_nav2_clean_map.pgm -> /work/install/wall_follower/share/wall_follower/maps
+[29.938s] symbolically linking /work/build/wall_follower/maps/topic2_nav2_clean_map.yaml -> /work/install/wall_follower/share/wall_follower/maps
+[30.023s] symbolically linking /work/build/wall_follower/maps/topic2_official_map.pgm -> /work/install/wall_follower/share/wall_follower/maps
+[30.075s] symbolically linking /work/build/wall_follower/maps/topic2_official_map.yaml -> /work/install/wall_follower/share/wall_follower/maps
+[30.095s] creating /work/install/wall_follower/share/wall_follower/models
+[30.157s] symbolically linking /work/build/wall_follower/models/cwmaze_classic.sdf -> /work/install/wall_follower/share/wall_follower/models
+[30.184s] creating /work/install/wall_follower/share/wall_follower/urdf
+[30.222s] symbolically linking /work/build/wall_follower/urdf/topic2_atlas_rviz.urdf -> /work/install/wall_follower/share/wall_follower/urdf
+[30.243s] creating /work/install/wall_follower/share/wall_follower/rviz
+[30.292s] symbolically linking /work/build/wall_follower/rviz/official_mapping.rviz -> /work/install/wall_follower/share/wall_follower/rviz
+[30.336s] symbolically linking /work/build/wall_follower/rviz/topic2_nav2.rviz -> /work/install/wall_follower/share/wall_follower/rviz
+[30.372s] symbolically linking /work/build/wall_follower/rviz/topic2_octomap.rviz -> /work/install/wall_follower/share/wall_follower/rviz
+[30.424s] symbolically linking /work/build/wall_follower/README.md -> /work/install/wall_follower/share/wall_follower
+[30.534s] Invoked command in '/work/build/wall_follower' returned '0': CMAKE_PREFIX_PATH=/work/install/octomap_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/odom_to_tf_ros2:/work/install/ntu_robotsim LD_LIBRARY_PATH=/work/install/octomap_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/work/install/pcl_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/work/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/wall_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/wall_follower/build --no-deps symlink_data

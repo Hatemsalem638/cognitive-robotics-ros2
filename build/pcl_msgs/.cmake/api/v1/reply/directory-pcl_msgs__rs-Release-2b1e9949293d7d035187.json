@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pcl_msgs__rs",
+		"source" : "/work/build/pcl_msgs/pcl_msgs__rs"
+	}
+}

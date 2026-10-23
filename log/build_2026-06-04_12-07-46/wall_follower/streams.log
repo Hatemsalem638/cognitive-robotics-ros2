@@ -1,0 +1,19 @@
+[8.632s] Invoking command in '/work/build/wall_follower': AMENT_PREFIX_PATH=/work/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/work/install/octomap_msgs LD_LIBRARY_PATH=/work/install/octomap_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/work/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/wall_follower/lib/python3.10/site-packages:/work/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/wall_follower/build --no-deps symlink_data
+[12.395s] running develop
+[13.540s] running egg_info
+[13.544s] writing wall_follower.egg-info/PKG-INFO
+[13.554s] writing dependency_links to wall_follower.egg-info/dependency_links.txt
+[13.576s] writing entry points to wall_follower.egg-info/entry_points.txt
+[13.591s] writing requirements to wall_follower.egg-info/requires.txt
+[13.626s] writing top-level names to wall_follower.egg-info/top_level.txt
+[14.259s] reading manifest file 'wall_follower.egg-info/SOURCES.txt'
+[15.420s] writing manifest file 'wall_follower.egg-info/SOURCES.txt'
+[15.475s] running build_ext
+[15.479s] Creating /work/install/wall_follower/lib/python3.10/site-packages/wall-follower.egg-link (link to .)
+[15.587s] Installing amcl_initializer script to /work/install/wall_follower/lib/wall_follower
+[15.661s] Installing wall_follower_node script to /work/install/wall_follower/lib/wall_follower
+[15.748s] 
+[15.751s] Installed /work/build/wall_follower
+[15.783s] running symlink_data
+[16.356s] error: can't copy '/work/build/wall_follower/launch/official_classic_world.launch.py': doesn't exist or not a regular file
+[16.449s] Invoked command in '/work/build/wall_follower' returned '1': AMENT_PREFIX_PATH=/work/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/work/install/octomap_msgs LD_LIBRARY_PATH=/work/install/octomap_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/work/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/wall_follower/lib/python3.10/site-packages:/work/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/wall_follower/build --no-deps symlink_data

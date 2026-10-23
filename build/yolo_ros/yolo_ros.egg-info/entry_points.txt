@@ -1,0 +1,8 @@
+[console_scripts]
+curiosity_explorer = yolo_ros.curiosity_explorer:main
+goal_publisher = yolo_ros.goal_publisher:main
+landmark_db = yolo_ros.landmark_db:main
+resource_monitor = yolo_ros.resource_monitor:main
+sign_controller = yolo_ros.sign_controller:main
+yolo_node = yolo_ros.yolo_node:main
+

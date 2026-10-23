@@ -1,0 +1,215 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ad2edbf89899b193e10e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "tests/filters",
+					"jsonFile" : "directory-tests.filters-Release-9e9a3ed558395e12b12b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests/filters",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "pcl_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "dummy_topics::@d7b92077c28eb0b260cf",
+					"jsonFile" : "target-dummy_topics-Release-916f60b0a29840148310.json",
+					"name" : "dummy_topics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filter_crop_box_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filter_crop_box_node-Release-eacabea4c6ec66b37b9b.json",
+					"name" : "filter_crop_box_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filter_extract_indices_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filter_extract_indices_node-Release-0a8e017647c2d7a9547e.json",
+					"name" : "filter_extract_indices_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filter_passthrough_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filter_passthrough_node-Release-502f75e398a6ef5e0592.json",
+					"name" : "filter_passthrough_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filter_project_inliers_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filter_project_inliers_node-Release-e690c8433e7c9e3ce8af.json",
+					"name" : "filter_project_inliers_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filter_radius_outlier_removal_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filter_radius_outlier_removal_node-Release-d0bf27deca356aad7a97.json",
+					"name" : "filter_radius_outlier_removal_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filter_statistical_outlier_removal_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filter_statistical_outlier_removal_node-Release-6da47f93c2d62e2b422f.json",
+					"name" : "filter_statistical_outlier_removal_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filter_voxel_grid_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filter_voxel_grid_node-Release-e49be0badecc36cf121d.json",
+					"name" : "filter_voxel_grid_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pcd_to_pointcloud::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcd_to_pointcloud-Release-374dc8df355be193cf9d.json",
+					"name" : "pcd_to_pointcloud",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pcd_to_pointcloud_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcd_to_pointcloud_lib-Release-e8ca2bb341ce6fc67a24.json",
+					"name" : "pcd_to_pointcloud_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pcl_ros_filters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcl_ros_filters-Release-cd404332ba4979ca2f42.json",
+					"name" : "pcl_ros_filters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pcl_ros_tf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcl_ros_tf-Release-ba45f40362f999db6bd0.json",
+					"name" : "pcl_ros_tf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pcl_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcl_ros_uninstall-Release-7d5e6f9adb7390698640.json",
+					"name" : "pcl_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_to_pcd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_to_pcd-Release-1006eb6597766d97c01a.json",
+					"name" : "pointcloud_to_pcd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_to_pcd_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_to_pcd_lib-Release-a01bc9ae450df86693e0.json",
+					"name" : "pointcloud_to_pcd_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-85cf0df2804534066231.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/work/build/pcl_ros",
+		"source" : "/work/external/NTU_COMP30271_CW_RobotSim/octomap2/perception_pcl/pcl_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

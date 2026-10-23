@@ -1,0 +1,10 @@
+{
+  "package_name": "pcl_msgs",
+  "non_idl_tuples": [
+    "/work/external/NTU_COMP30271_CW_RobotSim/octomap2/pcl_msgs:msg/ModelCoefficients.msg",
+    "/work/external/NTU_COMP30271_CW_RobotSim/octomap2/pcl_msgs:msg/PointIndices.msg",
+    "/work/external/NTU_COMP30271_CW_RobotSim/octomap2/pcl_msgs:msg/PolygonMesh.msg",
+    "/work/external/NTU_COMP30271_CW_RobotSim/octomap2/pcl_msgs:msg/Vertices.msg",
+    "/work/external/NTU_COMP30271_CW_RobotSim/octomap2/pcl_msgs:srv/UpdateFilename.srv"
+  ]
+}

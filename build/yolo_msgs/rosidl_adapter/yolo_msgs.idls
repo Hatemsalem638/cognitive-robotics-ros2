@@ -1,0 +1,3 @@
+/work/build/yolo_msgs/rosidl_adapter/yolo_msgs:msg/Detection.idl
+/work/build/yolo_msgs/rosidl_adapter/yolo_msgs:msg/DetectionArray.idl
+/work/build/yolo_msgs/rosidl_adapter/yolo_msgs:srv/StoreLandmark.idl

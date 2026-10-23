@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/scan_filter
+scan_filter/__init__.py
+scan_filter/scan_filter_node.py
+scan_filter.egg-info/PKG-INFO
+scan_filter.egg-info/SOURCES.txt
+scan_filter.egg-info/dependency_links.txt
+scan_filter.egg-info/entry_points.txt
+scan_filter.egg-info/requires.txt
+scan_filter.egg-info/top_level.txt
+scan_filter.egg-info/zip-safe

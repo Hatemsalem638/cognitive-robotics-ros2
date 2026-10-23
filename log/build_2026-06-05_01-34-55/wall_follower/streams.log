@@ -1,0 +1,21 @@
+[15.272s] Invoking command in '/work/build/wall_follower': CMAKE_PREFIX_PATH=/work/install/yolo_msgs:/work/install/octomap_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/odom_to_tf_ros2:/work/install/ntu_robotsim LD_LIBRARY_PATH=/work/install/yolo_msgs/lib:/work/install/octomap_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/work/install/pcl_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/work/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/wall_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/wall_follower/build --no-deps symlink_data
+[20.639s] running develop
+[21.919s] running egg_info
+[21.921s] writing wall_follower.egg-info/PKG-INFO
+[21.928s] writing dependency_links to wall_follower.egg-info/dependency_links.txt
+[21.935s] writing entry points to wall_follower.egg-info/entry_points.txt
+[21.942s] writing requirements to wall_follower.egg-info/requires.txt
+[21.961s] writing top-level names to wall_follower.egg-info/top_level.txt
+[22.255s] reading manifest file 'wall_follower.egg-info/SOURCES.txt'
+[22.536s] writing manifest file 'wall_follower.egg-info/SOURCES.txt'
+[22.607s] running build_ext
+[22.608s] Creating /work/install/wall_follower/lib/python3.10/site-packages/wall-follower.egg-link (link to .)
+[22.643s] Installing amcl_initializer script to /work/install/wall_follower/lib/wall_follower
+[22.679s] Installing topic2_nav2_traffic_rules script to /work/install/wall_follower/lib/wall_follower
+[22.718s] Installing topic2_yolo_counter script to /work/install/wall_follower/lib/wall_follower
+[22.755s] Installing topic2_yolo_landmark_bridge script to /work/install/wall_follower/lib/wall_follower
+[22.789s] Installing wall_follower_node script to /work/install/wall_follower/lib/wall_follower
+[22.828s] 
+[22.829s] Installed /work/build/wall_follower
+[22.834s] running symlink_data
+[23.632s] Invoked command in '/work/build/wall_follower' returned '0': CMAKE_PREFIX_PATH=/work/install/yolo_msgs:/work/install/octomap_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/odom_to_tf_ros2:/work/install/ntu_robotsim LD_LIBRARY_PATH=/work/install/yolo_msgs/lib:/work/install/octomap_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/work/install/pcl_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/work/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/wall_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/wall_follower/build --no-deps symlink_data

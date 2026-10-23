@@ -1,0 +1,29 @@
+[9.512s] Invoking command in '/work/build/wall_follower': AMENT_PREFIX_PATH=/work/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/work/install/octomap_msgs LD_LIBRARY_PATH=/work/install/octomap_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/work/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/wall_follower/lib/python3.10/site-packages:/work/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/wall_follower/build --no-deps symlink_data
+[13.153s] running develop
+[14.481s] running egg_info
+[14.485s] writing wall_follower.egg-info/PKG-INFO
+[14.494s] writing dependency_links to wall_follower.egg-info/dependency_links.txt
+[14.512s] writing entry points to wall_follower.egg-info/entry_points.txt
+[14.541s] writing requirements to wall_follower.egg-info/requires.txt
+[14.578s] writing top-level names to wall_follower.egg-info/top_level.txt
+[15.714s] reading manifest file 'wall_follower.egg-info/SOURCES.txt'
+[16.946s] writing manifest file 'wall_follower.egg-info/SOURCES.txt'
+[17.062s] running build_ext
+[17.071s] Creating /work/install/wall_follower/lib/python3.10/site-packages/wall-follower.egg-link (link to .)
+[17.133s] Installing amcl_initializer script to /work/install/wall_follower/lib/wall_follower
+[17.200s] Installing pomdp_goal_selector script to /work/install/wall_follower/lib/wall_follower
+[17.250s] Installing scan_to_pointcloud script to /work/install/wall_follower/lib/wall_follower
+[17.330s] Installing topic2_depth_wall_follower script to /work/install/wall_follower/lib/wall_follower
+[17.419s] Installing topic2_enhanced_navigation script to /work/install/wall_follower/lib/wall_follower
+[17.444s] Installing topic2_goal_pose_bridge script to /work/install/wall_follower/lib/wall_follower
+[17.519s] Installing topic2_mapping_tf script to /work/install/wall_follower/lib/wall_follower
+[17.564s] Installing topic2_nav2_tf_helper script to /work/install/wall_follower/lib/wall_follower
+[17.614s] Installing topic2_nav2_traffic_rules script to /work/install/wall_follower/lib/wall_follower
+[17.708s] Installing topic2_object_counter script to /work/install/wall_follower/lib/wall_follower
+[17.756s] Installing topic2_pointcloud_filter script to /work/install/wall_follower/lib/wall_follower
+[17.813s] Installing topic2_relay_adapters script to /work/install/wall_follower/lib/wall_follower
+[17.852s] Installing wall_follower_node script to /work/install/wall_follower/lib/wall_follower
+[17.932s] 
+[17.936s] Installed /work/build/wall_follower
+[17.938s] running symlink_data
+[21.067s] Invoked command in '/work/build/wall_follower' returned '0': AMENT_PREFIX_PATH=/work/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/work/install/octomap_msgs LD_LIBRARY_PATH=/work/install/octomap_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/work/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/wall_follower/lib/python3.10/site-packages:/work/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/wall_follower/build --no-deps symlink_data

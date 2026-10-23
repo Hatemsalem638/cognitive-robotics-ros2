@@ -1,0 +1,31 @@
+[19.407s] Invoking command in '/work/build/yolo_ros': AMENT_PREFIX_PATH=/work/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/work/install/yolo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/work/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/work/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/yolo_ros/lib/python3.10/site-packages:/work/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/yolo_ros/build --no-deps symlink_data
+[27.422s] running develop
+[29.406s] running egg_info
+[29.409s] creating yolo_ros.egg-info
+[29.411s] writing yolo_ros.egg-info/PKG-INFO
+[29.434s] writing dependency_links to yolo_ros.egg-info/dependency_links.txt
+[29.440s] writing entry points to yolo_ros.egg-info/entry_points.txt
+[29.446s] writing requirements to yolo_ros.egg-info/requires.txt
+[29.452s] writing top-level names to yolo_ros.egg-info/top_level.txt
+[29.461s] writing manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[29.709s] reading manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[29.917s] writing manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[30.045s] running build_ext
+[30.047s] Creating /work/install/yolo_ros/lib/python3.10/site-packages/yolo-ros.egg-link (link to .)
+[30.093s] Installing curiosity_explorer script to /work/install/yolo_ros/lib/yolo_ros
+[30.137s] Installing goal_publisher script to /work/install/yolo_ros/lib/yolo_ros
+[30.182s] Installing landmark_db script to /work/install/yolo_ros/lib/yolo_ros
+[30.209s] Installing resource_monitor script to /work/install/yolo_ros/lib/yolo_ros
+[30.255s] Installing sign_controller script to /work/install/yolo_ros/lib/yolo_ros
+[30.306s] Installing yolo_node script to /work/install/yolo_ros/lib/yolo_ros
+[30.371s] 
+[30.372s] Installed /work/build/yolo_ros
+[30.381s] running symlink_data
+[30.395s] creating /work/install/yolo_ros/share/ament_index
+[30.399s] creating /work/install/yolo_ros/share/ament_index/resource_index
+[30.403s] creating /work/install/yolo_ros/share/ament_index/resource_index/packages
+[30.444s] symbolically linking /work/build/yolo_ros/resource/yolo_ros -> /work/install/yolo_ros/share/ament_index/resource_index/packages
+[30.491s] symbolically linking /work/build/yolo_ros/package.xml -> /work/install/yolo_ros/share/yolo_ros
+[30.512s] creating /work/install/yolo_ros/share/yolo_ros/launch
+[30.562s] symbolically linking /work/build/yolo_ros/launch/yolo_launch.py -> /work/install/yolo_ros/share/yolo_ros/launch
+[30.681s] Invoked command in '/work/build/yolo_ros' returned '0': AMENT_PREFIX_PATH=/work/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/work/install/yolo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/work/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/work/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/yolo_ros/lib/python3.10/site-packages:/work/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/yolo_ros/build --no-deps symlink_data

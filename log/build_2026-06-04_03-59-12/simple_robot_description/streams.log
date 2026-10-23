@@ -1,0 +1,44 @@
+[10.384s] Invoking command in '/work/build/simple_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /work/build/simple_robot_description -- -j20 -l20
+[13.653s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[22.719s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[28.329s] -- Configuring done
+[29.826s] -- Generating done
+[30.853s] -- Build files have been written to: /work/build/simple_robot_description
+[33.914s] Invoked command in '/work/build/simple_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /work/build/simple_robot_description -- -j20 -l20
+[34.024s] Invoking command in '/work/build/simple_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /work/build/simple_robot_description
+[35.396s] -- Install configuration: "Release"
+[35.511s] -- Execute custom install script
+[35.821s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/urdf/robot.urdf
+[36.098s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/launch/display.launch.py
+[36.279s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/launch/gazebo.launch.py
+[36.549s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/rviz/robot.rviz
+[36.929s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/worlds/diff_drive/detection_world.sdf
+[37.096s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/worlds/simple_world.world
+[38.659s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/models/fast_sign_poster/materials/scripts/fast_sign.material
+[38.943s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/models/fast_sign_poster/materials/textures/fast_sign.png
+[39.085s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/models/fast_sign_poster/model.config
+[39.282s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/models/fast_sign_poster/model.sdf
+[39.697s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/models/slow_sign_poster/materials/scripts/slow_sign.material
+[40.057s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/models/slow_sign_poster/materials/textures/slow_sign.png
+[40.245s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/models/slow_sign_poster/model.config
+[40.424s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/models/slow_sign_poster/model.sdf
+[40.719s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/models/stop_sign_poster/materials/scripts/stop_sign.material
+[40.995s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/models/stop_sign_poster/materials/textures/stop_sign.png
+[41.213s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/models/stop_sign_poster/model.config
+[41.370s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/models/stop_sign_poster/model.sdf
+[41.614s] -- Up-to-date symlink: /work/install/simple_robot_description/share/ament_index/resource_index/package_run_dependencies/simple_robot_description
+[41.886s] -- Up-to-date symlink: /work/install/simple_robot_description/share/ament_index/resource_index/parent_prefix_path/simple_robot_description
+[41.971s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/environment/ament_prefix_path.sh
+[42.078s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/environment/ament_prefix_path.dsv
+[42.144s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/environment/path.sh
+[42.272s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/environment/path.dsv
+[42.356s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/local_setup.bash
+[42.448s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/local_setup.sh
+[42.543s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/local_setup.zsh
+[42.659s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/local_setup.dsv
+[42.702s] -- Symlinking: /work/install/simple_robot_description/share/simple_robot_description/package.dsv
+[44.403s] -- Up-to-date symlink: /work/install/simple_robot_description/share/ament_index/resource_index/packages/simple_robot_description
+[44.526s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/cmake/simple_robot_descriptionConfig.cmake
+[44.627s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/cmake/simple_robot_descriptionConfig-version.cmake
+[44.716s] -- Up-to-date symlink: /work/install/simple_robot_description/share/simple_robot_description/package.xml
+[44.746s] Invoked command in '/work/build/simple_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /work/build/simple_robot_description

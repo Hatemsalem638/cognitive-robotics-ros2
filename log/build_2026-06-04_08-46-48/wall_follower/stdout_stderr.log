@@ -1,0 +1,27 @@
+running develop
+running egg_info
+writing wall_follower.egg-info/PKG-INFO
+writing dependency_links to wall_follower.egg-info/dependency_links.txt
+writing entry points to wall_follower.egg-info/entry_points.txt
+writing requirements to wall_follower.egg-info/requires.txt
+writing top-level names to wall_follower.egg-info/top_level.txt
+reading manifest file 'wall_follower.egg-info/SOURCES.txt'
+writing manifest file 'wall_follower.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/install/wall_follower/lib/python3.10/site-packages/wall-follower.egg-link (link to .)
+Installing amcl_initializer script to /work/install/wall_follower/lib/wall_follower
+Installing pomdp_goal_selector script to /work/install/wall_follower/lib/wall_follower
+Installing scan_to_pointcloud script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_depth_wall_follower script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_enhanced_navigation script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_goal_pose_bridge script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_mapping_tf script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_nav2_tf_helper script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_nav2_traffic_rules script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_object_counter script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_pointcloud_filter script to /work/install/wall_follower/lib/wall_follower
+Installing topic2_relay_adapters script to /work/install/wall_follower/lib/wall_follower
+Installing wall_follower_node script to /work/install/wall_follower/lib/wall_follower
+
+Installed /work/build/wall_follower
+running symlink_data

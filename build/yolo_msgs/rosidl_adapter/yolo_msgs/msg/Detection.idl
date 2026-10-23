@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yolo_msgs/msg/Detection.msg
+// generated code does not contain a copyright notice
+
+
+module yolo_msgs {
+  module msg {
+    struct Detection {
+      string label;
+
+      float confidence;
+
+      float x1;
+
+      float y1;
+
+      float x2;
+
+      float y2;
+    };
+  };
+};

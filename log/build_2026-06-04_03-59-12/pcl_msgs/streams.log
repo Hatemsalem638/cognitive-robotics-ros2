@@ -1,0 +1,201 @@
+[3.647s] Invoking command in '/work/build/pcl_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /work/build/pcl_msgs -- -j20 -l20
+[10.156s] [  1%] Built target pcl_msgs__rs
+[10.676s] [  1%] Built target ament_cmake_python_symlink_pcl_msgs
+[10.776s] [  3%] Built target pcl_msgs__cpp
+[11.691s] [ 14%] Built target pcl_msgs__rosidl_generator_c
+[15.237s] [ 25%] Built target pcl_msgs__rosidl_typesupport_cpp
+[16.020s] [ 35%] Built target pcl_msgs__rosidl_typesupport_introspection_cpp
+[16.554s] [ 53%] Built target pcl_msgs__rosidl_typesupport_fastrtps_cpp
+[16.658s] [ 57%] Built target pcl_msgs__rosidl_typesupport_c
+[17.654s] [ 68%] Built target pcl_msgs__rosidl_typesupport_introspection_c
+[18.455s] [ 79%] Built target pcl_msgs__rosidl_typesupport_fastrtps_c
+[21.371s] running egg_info
+[21.381s] writing pcl_msgs.egg-info/PKG-INFO
+[21.460s] writing dependency_links to pcl_msgs.egg-info/dependency_links.txt
+[21.476s] writing top-level names to pcl_msgs.egg-info/top_level.txt
+[21.885s] reading manifest file 'pcl_msgs.egg-info/SOURCES.txt'
+[22.328s] writing manifest file 'pcl_msgs.egg-info/SOURCES.txt'
+[22.530s] [ 79%] Built target pcl_msgs
+[23.673s] [ 79%] Built target ament_cmake_python_build_pcl_msgs_egg
+[26.462s] [ 81%] Built target pcl_msgs__py
+[30.090s] [ 90%] Built target pcl_msgs__rosidl_generator_py
+[32.899s] [ 93%] Built target pcl_msgs__rosidl_typesupport_fastrtps_c__pyext
+[33.042s] [ 96%] Built target pcl_msgs__rosidl_typesupport_c__pyext
+[33.737s] [100%] Built target pcl_msgs__rosidl_typesupport_introspection_c__pyext
+[36.612s] Invoked command in '/work/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /work/build/pcl_msgs -- -j20 -l20
+[36.735s] Invoking command in '/work/build/pcl_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /work/build/pcl_msgs
+[38.064s] -- Install configuration: "Release"
+[38.136s] -- Execute custom install script
+[38.529s] -- Up-to-date symlink: /work/install/pcl_msgs/share/ament_index/resource_index/rosidl_interfaces/pcl_msgs
+[40.005s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__functions.h
+[40.263s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__struct.h
+[40.528s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__type_support.h
+[40.802s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__functions.h
+[41.184s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__struct.h
+[41.492s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__type_support.h
+[41.766s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__functions.h
+[41.970s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__struct.h
+[42.166s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__type_support.h
+[42.444s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__functions.h
+[42.758s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__struct.h
+[43.055s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__type_support.h
+[43.188s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/model_coefficients.h
+[43.400s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/point_indices.h
+[43.546s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/polygon_mesh.h
+[43.746s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_generator_c__visibility_control.h
+[43.930s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/vertices.h
+[44.158s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__functions.h
+[44.400s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__struct.h
+[44.624s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__type_support.h
+[44.796s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/update_filename.h
+[44.921s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/environment/library_path.sh
+[45.033s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/environment/library_path.dsv
+[46.244s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_fastrtps_c.h
+[46.487s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_fastrtps_c.h
+[46.710s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_fastrtps_c.h
+[47.020s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__rosidl_typesupport_fastrtps_c.h
+[47.200s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[47.431s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_fastrtps_c.h
+[48.107s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_introspection_c.h
+[48.334s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_introspection_c.h
+[48.548s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_introspection_c.h
+[48.776s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__rosidl_typesupport_introspection_c.h
+[48.944s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[49.133s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_introspection_c.h
+[50.240s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__builder.hpp
+[50.465s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__struct.hpp
+[50.656s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__traits.hpp
+[50.921s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__type_support.hpp
+[51.098s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__builder.hpp
+[51.287s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__struct.hpp
+[51.465s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__traits.hpp
+[51.765s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__type_support.hpp
+[51.941s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__builder.hpp
+[52.132s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__struct.hpp
+[52.344s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__traits.hpp
+[52.521s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__type_support.hpp
+[52.765s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__builder.hpp
+[52.972s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__struct.hpp
+[53.235s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__traits.hpp
+[53.427s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__type_support.hpp
+[53.538s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/model_coefficients.hpp
+[53.702s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/point_indices.hpp
+[53.867s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/polygon_mesh.hpp
+[53.987s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[54.106s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/vertices.hpp
+[54.265s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__builder.hpp
+[54.428s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__struct.hpp
+[54.627s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__traits.hpp
+[54.755s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__type_support.hpp
+[54.862s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/update_filename.hpp
+[55.944s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_fastrtps_cpp.hpp
+[56.094s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_fastrtps_cpp.hpp
+[56.282s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[56.453s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__rosidl_typesupport_fastrtps_cpp.hpp
+[56.567s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[56.797s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_fastrtps_cpp.hpp
+[57.375s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_introspection_cpp.hpp
+[57.502s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_introspection_cpp.hpp
+[57.688s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_introspection_cpp.hpp
+[57.862s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__rosidl_typesupport_introspection_cpp.hpp
+[58.069s] -- Up-to-date symlink: /work/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_introspection_cpp.hpp
+[58.185s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/environment/pythonpath.sh
+[58.266s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/environment/pythonpath.dsv
+[58.541s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[58.691s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[58.862s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[59.053s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[60.160s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/__init__.py
+[60.278s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_c.c
+[60.414s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[60.521s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[60.628s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/libpcl_msgs__rosidl_generator_py.so
+[60.777s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/__init__.py
+[60.919s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_model_coefficients.py
+[61.109s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_model_coefficients_s.c
+[61.245s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_point_indices.py
+[61.381s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_point_indices_s.c
+[61.546s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_polygon_mesh.py
+[61.709s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_polygon_mesh_s.c
+[61.871s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_vertices.py
+[62.055s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_vertices_s.c
+[62.146s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[62.297s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[62.414s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[62.552s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv/__init__.py
+[62.678s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv/_update_filename.py
+[62.821s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv/_update_filename_s.c
+[62.962s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[63.085s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[63.187s] -- Up-to-date symlink: /work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[63.314s] -- Up-to-date symlink: /work/install/pcl_msgs/share/ament_index/resource_index/rust_packages/pcl_msgs
+[63.629s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/rust/Cargo.toml
+[63.743s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/rust/build.rs
+[63.890s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/rust/src/lib.rs
+[64.024s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/rust/src/msg.rs
+[64.170s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/rust/src/msg/rmw.rs
+[64.306s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/rust/src/srv.rs
+[64.503s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/rust/src/srv/rmw.rs
+[64.625s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/msg/ModelCoefficients.idl
+[64.761s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/msg/PointIndices.idl
+[64.845s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/msg/PolygonMesh.idl
+[64.949s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/msg/Vertices.idl
+[65.027s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename.idl
+[65.175s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/msg/ModelCoefficients.msg
+[65.324s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/msg/PointIndices.msg
+[65.503s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/msg/PolygonMesh.msg
+[65.642s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/msg/Vertices.msg
+[65.774s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename.srv
+[65.905s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename_Request.msg
+[66.002s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename_Response.msg
+[66.177s] -- Up-to-date symlink: /work/install/pcl_msgs/share/ament_index/resource_index/package_run_dependencies/pcl_msgs
+[66.363s] -- Up-to-date symlink: /work/install/pcl_msgs/share/ament_index/resource_index/parent_prefix_path/pcl_msgs
+[66.416s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/environment/ament_prefix_path.sh
+[66.509s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/environment/ament_prefix_path.dsv
+[66.565s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/environment/path.sh
+[66.639s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/environment/path.dsv
+[66.706s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/local_setup.bash
+[66.771s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/local_setup.sh
+[66.841s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/local_setup.zsh
+[66.937s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/local_setup.dsv
+[66.954s] -- Symlinking: /work/install/pcl_msgs/share/pcl_msgs/package.dsv
+[68.086s] -- Up-to-date symlink: /work/install/pcl_msgs/share/ament_index/resource_index/packages/pcl_msgs
+[68.166s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/cmake/rosidl_cmake-extras.cmake
+[68.252s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[68.341s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[68.407s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[68.525s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[68.632s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[68.702s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[68.825s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgsConfig.cmake
+[68.912s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgsConfig-version.cmake
+[69.034s] -- Up-to-date symlink: /work/install/pcl_msgs/share/pcl_msgs/package.xml
+[69.193s] -- Up-to-date: /work/install/pcl_msgs/lib/libpcl_msgs__rosidl_generator_c.so
+[69.472s] -- Up-to-date: /work/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_fastrtps_c.so
+[69.779s] -- Up-to-date: /work/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_introspection_c.so
+[70.055s] -- Up-to-date: /work/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_c.so
+[70.333s] -- Up-to-date: /work/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so
+[70.605s] -- Up-to-date: /work/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_introspection_cpp.so
+[70.809s] -- Up-to-date: /work/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_cpp.so
+[74.802s] Listing '/work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs'...
+[74.828s] Listing '/work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg'...
+[74.881s] Listing '/work/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv'...
+[74.994s] -- Up-to-date: /work/install/pcl_msgs/lib/libpcl_msgs__rosidl_generator_py.so
+[75.249s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_cExport.cmake
+[75.365s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_cExport-release.cmake
+[75.447s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[75.593s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[75.672s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cExport.cmake
+[75.792s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[75.953s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cExport.cmake
+[76.054s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cExport-release.cmake
+[76.294s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_cppExport.cmake
+[76.411s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[76.509s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[76.661s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[76.786s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[76.956s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cppExport.cmake
+[77.092s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cppExport-release.cmake
+[77.273s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_pyExport.cmake
+[77.349s] -- Up-to-date: /work/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_pyExport-release.cmake
+[77.441s] Invoked command in '/work/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /work/build/pcl_msgs

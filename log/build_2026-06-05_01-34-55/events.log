@@ -1,0 +1,284 @@
+[0.000000] (-) TimerEvent: {}
+[0.000502] (-) JobUnselected: {'identifier': 'ntu_robotsim'}
+[0.000767] (-) JobUnselected: {'identifier': 'octomap_msgs'}
+[0.000993] (-) JobUnselected: {'identifier': 'octomap_server2'}
+[0.001449] (-) JobUnselected: {'identifier': 'odom_to_tf_ros2'}
+[0.001850] (-) JobUnselected: {'identifier': 'pcl_conversions'}
+[0.002052] (-) JobUnselected: {'identifier': 'pcl_msgs'}
+[0.002290] (-) JobUnselected: {'identifier': 'pcl_ros'}
+[0.002444] (-) JobUnselected: {'identifier': 'perception_pcl'}
+[0.002689] (-) JobUnselected: {'identifier': 'scan_filter'}
+[0.002991] (-) JobUnselected: {'identifier': 'simple_robot_description'}
+[0.003336] (-) JobUnselected: {'identifier': 'yolo_msgs'}
+[0.003631] (-) JobUnselected: {'identifier': 'yolo_ros'}
+[0.003858] (wall_follower) JobQueued: {'identifier': 'wall_follower', 'dependencies': OrderedDict([('octomap_msgs', '/work/install/octomap_msgs'), ('yolo_msgs', '/work/install/yolo_msgs')])}
+[0.004006] (wall_follower) JobStarted: {'identifier': 'wall_follower'}
+[0.098392] (-) TimerEvent: {}
+[0.199095] (-) TimerEvent: {}
+[0.299719] (-) TimerEvent: {}
+[0.400270] (-) TimerEvent: {}
+[0.500807] (-) TimerEvent: {}
+[0.601541] (-) TimerEvent: {}
+[0.702226] (-) TimerEvent: {}
+[0.802865] (-) TimerEvent: {}
+[0.903476] (-) TimerEvent: {}
+[1.004106] (-) TimerEvent: {}
+[1.104779] (-) TimerEvent: {}
+[1.205339] (-) TimerEvent: {}
+[1.306002] (-) TimerEvent: {}
+[1.406600] (-) TimerEvent: {}
+[1.507301] (-) TimerEvent: {}
+[1.608039] (-) TimerEvent: {}
+[1.708930] (-) TimerEvent: {}
+[1.809479] (-) TimerEvent: {}
+[1.910057] (-) TimerEvent: {}
+[2.010803] (-) TimerEvent: {}
+[2.111385] (-) TimerEvent: {}
+[2.212053] (-) TimerEvent: {}
+[2.312692] (-) TimerEvent: {}
+[2.413355] (-) TimerEvent: {}
+[2.513989] (-) TimerEvent: {}
+[2.614573] (-) TimerEvent: {}
+[2.715245] (-) TimerEvent: {}
+[2.816072] (-) TimerEvent: {}
+[2.916635] (-) TimerEvent: {}
+[3.017185] (-) TimerEvent: {}
+[3.117815] (-) TimerEvent: {}
+[3.218440] (-) TimerEvent: {}
+[3.319085] (-) TimerEvent: {}
+[3.419955] (-) TimerEvent: {}
+[3.520757] (-) TimerEvent: {}
+[3.621433] (-) TimerEvent: {}
+[3.722252] (-) TimerEvent: {}
+[3.823164] (-) TimerEvent: {}
+[3.923865] (-) TimerEvent: {}
+[4.024443] (-) TimerEvent: {}
+[4.125047] (-) TimerEvent: {}
+[4.225777] (-) TimerEvent: {}
+[4.326383] (-) TimerEvent: {}
+[4.426885] (-) TimerEvent: {}
+[4.527406] (-) TimerEvent: {}
+[4.627919] (-) TimerEvent: {}
+[4.728735] (-) TimerEvent: {}
+[4.829241] (-) TimerEvent: {}
+[4.929671] (-) TimerEvent: {}
+[5.030203] (-) TimerEvent: {}
+[5.130840] (-) TimerEvent: {}
+[5.231457] (-) TimerEvent: {}
+[5.331871] (-) TimerEvent: {}
+[5.432444] (-) TimerEvent: {}
+[5.533101] (-) TimerEvent: {}
+[5.633678] (-) TimerEvent: {}
+[5.734473] (-) TimerEvent: {}
+[5.835154] (-) TimerEvent: {}
+[5.935722] (-) TimerEvent: {}
+[6.036261] (-) TimerEvent: {}
+[6.136967] (-) TimerEvent: {}
+[6.237618] (-) TimerEvent: {}
+[6.338200] (-) TimerEvent: {}
+[6.438971] (-) TimerEvent: {}
+[6.539633] (-) TimerEvent: {}
+[6.640109] (-) TimerEvent: {}
+[6.740756] (-) TimerEvent: {}
+[6.841178] (-) TimerEvent: {}
+[6.941688] (-) TimerEvent: {}
+[7.042256] (-) TimerEvent: {}
+[7.142844] (-) TimerEvent: {}
+[7.243630] (-) TimerEvent: {}
+[7.344079] (-) TimerEvent: {}
+[7.444693] (-) TimerEvent: {}
+[7.545294] (-) TimerEvent: {}
+[7.645841] (-) TimerEvent: {}
+[7.746481] (-) TimerEvent: {}
+[7.847080] (-) TimerEvent: {}
+[7.947619] (-) TimerEvent: {}
+[8.048146] (-) TimerEvent: {}
+[8.148722] (-) TimerEvent: {}
+[8.249339] (-) TimerEvent: {}
+[8.350052] (-) TimerEvent: {}
+[8.450684] (-) TimerEvent: {}
+[8.551364] (-) TimerEvent: {}
+[8.652051] (-) TimerEvent: {}
+[8.752642] (-) TimerEvent: {}
+[8.853246] (-) TimerEvent: {}
+[8.953886] (-) TimerEvent: {}
+[9.054608] (-) TimerEvent: {}
+[9.155161] (-) TimerEvent: {}
+[9.255639] (-) TimerEvent: {}
+[9.356349] (-) TimerEvent: {}
+[9.456833] (-) TimerEvent: {}
+[9.557372] (-) TimerEvent: {}
+[9.657959] (-) TimerEvent: {}
+[9.758621] (-) TimerEvent: {}
+[9.859237] (-) TimerEvent: {}
+[9.959791] (-) TimerEvent: {}
+[10.060375] (-) TimerEvent: {}
+[10.160995] (-) TimerEvent: {}
+[10.261648] (-) TimerEvent: {}
+[10.362302] (-) TimerEvent: {}
+[10.462969] (-) TimerEvent: {}
+[10.563596] (-) TimerEvent: {}
+[10.664152] (-) TimerEvent: {}
+[10.764788] (-) TimerEvent: {}
+[10.865369] (-) TimerEvent: {}
+[10.966037] (-) TimerEvent: {}
+[11.066616] (-) TimerEvent: {}
+[11.167177] (-) TimerEvent: {}
+[11.267625] (-) TimerEvent: {}
+[11.368272] (-) TimerEvent: {}
+[11.468788] (-) TimerEvent: {}
+[11.569428] (-) TimerEvent: {}
+[11.670165] (-) TimerEvent: {}
+[11.770810] (-) TimerEvent: {}
+[11.871395] (-) TimerEvent: {}
+[11.971982] (-) TimerEvent: {}
+[12.072708] (-) TimerEvent: {}
+[12.173138] (-) TimerEvent: {}
+[12.273729] (-) TimerEvent: {}
+[12.374268] (-) TimerEvent: {}
+[12.474838] (-) TimerEvent: {}
+[12.575667] (-) TimerEvent: {}
+[12.676318] (-) TimerEvent: {}
+[12.776978] (-) TimerEvent: {}
+[12.877494] (-) TimerEvent: {}
+[12.978132] (-) TimerEvent: {}
+[13.078823] (-) TimerEvent: {}
+[13.179596] (-) TimerEvent: {}
+[13.280250] (-) TimerEvent: {}
+[13.380821] (-) TimerEvent: {}
+[13.481435] (-) TimerEvent: {}
+[13.582184] (-) TimerEvent: {}
+[13.682826] (-) TimerEvent: {}
+[13.783486] (-) TimerEvent: {}
+[13.884162] (-) TimerEvent: {}
+[13.984881] (-) TimerEvent: {}
+[14.085602] (-) TimerEvent: {}
+[14.186163] (-) TimerEvent: {}
+[14.286716] (-) TimerEvent: {}
+[14.387310] (-) TimerEvent: {}
+[14.488064] (-) TimerEvent: {}
+[14.588540] (-) TimerEvent: {}
+[14.689071] (-) TimerEvent: {}
+[14.789670] (-) TimerEvent: {}
+[14.890213] (-) TimerEvent: {}
+[14.990675] (-) TimerEvent: {}
+[15.091251] (-) TimerEvent: {}
+[15.191885] (-) TimerEvent: {}
+[15.263274] (wall_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/work/build/wall_follower/build', '--no-deps', 'symlink_data'], 'cwd': '/work/build/wall_follower', 'env': {'HOSTNAME': 'f339f6da0e4a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/work/install/yolo_msgs/lib:/work/install/octomap_msgs/lib:/work/install/pcl_ros/lib:/work/install/octomap_server2/lib:/work/install/pcl_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/work', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/work/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/work/install/yolo_ros:/work/install/wall_follower:/work/install/yolo_msgs:/work/install/simple_robot_description:/work/install/scan_filter:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/odom_to_tf_ros2:/work/install/octomap_msgs:/work/install/ntu_robotsim:/opt/ros/humble', 'IGN_GAZEBO_RESOURCE_PATH': '/work/install/ntu_robotsim/share/ntu_robotsim/models:/work/install/ntu_robotsim/share/ntu_robotsim/worlds', 'PWD': '/work/build/wall_follower', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/work/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/wall_follower/lib/python3.10/site-packages:/work/build/yolo_ros:/work/install/yolo_ros/lib/python3.10/site-packages:/work/build/wall_follower:/work/install/wall_follower/lib/python3.10/site-packages:/work/install/yolo_msgs/local/lib/python3.10/dist-packages:/work/build/scan_filter:/work/install/scan_filter/lib/python3.10/site-packages:/work/install/pcl_msgs/local/lib/python3.10/dist-packages:/work/install/octomap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/work/install/yolo_msgs:/work/install/octomap_msgs:/work/install/simple_robot_description:/work/install/perception_pcl:/work/install/pcl_ros:/work/install/octomap_server2:/work/install/pcl_conversions:/work/install/pcl_msgs:/work/install/odom_to_tf_ros2:/work/install/ntu_robotsim'}, 'shell': False}
+[15.292029] (-) TimerEvent: {}
+[15.392549] (-) TimerEvent: {}
+[15.493205] (-) TimerEvent: {}
+[15.593910] (-) TimerEvent: {}
+[15.694554] (-) TimerEvent: {}
+[15.795085] (-) TimerEvent: {}
+[15.895658] (-) TimerEvent: {}
+[15.996212] (-) TimerEvent: {}
+[16.096867] (-) TimerEvent: {}
+[16.197540] (-) TimerEvent: {}
+[16.298161] (-) TimerEvent: {}
+[16.398797] (-) TimerEvent: {}
+[16.499487] (-) TimerEvent: {}
+[16.600112] (-) TimerEvent: {}
+[16.700796] (-) TimerEvent: {}
+[16.801455] (-) TimerEvent: {}
+[16.902002] (-) TimerEvent: {}
+[17.002486] (-) TimerEvent: {}
+[17.103051] (-) TimerEvent: {}
+[17.203542] (-) TimerEvent: {}
+[17.304197] (-) TimerEvent: {}
+[17.404816] (-) TimerEvent: {}
+[17.505457] (-) TimerEvent: {}
+[17.606042] (-) TimerEvent: {}
+[17.706600] (-) TimerEvent: {}
+[17.807258] (-) TimerEvent: {}
+[17.907915] (-) TimerEvent: {}
+[18.008550] (-) TimerEvent: {}
+[18.109152] (-) TimerEvent: {}
+[18.209772] (-) TimerEvent: {}
+[18.310308] (-) TimerEvent: {}
+[18.410920] (-) TimerEvent: {}
+[18.511563] (-) TimerEvent: {}
+[18.612159] (-) TimerEvent: {}
+[18.712919] (-) TimerEvent: {}
+[18.813660] (-) TimerEvent: {}
+[18.914285] (-) TimerEvent: {}
+[19.014925] (-) TimerEvent: {}
+[19.115609] (-) TimerEvent: {}
+[19.216394] (-) TimerEvent: {}
+[19.317097] (-) TimerEvent: {}
+[19.417821] (-) TimerEvent: {}
+[19.518392] (-) TimerEvent: {}
+[19.619167] (-) TimerEvent: {}
+[19.719759] (-) TimerEvent: {}
+[19.820593] (-) TimerEvent: {}
+[19.921231] (-) TimerEvent: {}
+[20.021804] (-) TimerEvent: {}
+[20.122324] (-) TimerEvent: {}
+[20.222918] (-) TimerEvent: {}
+[20.323632] (-) TimerEvent: {}
+[20.424179] (-) TimerEvent: {}
+[20.524791] (-) TimerEvent: {}
+[20.625280] (-) TimerEvent: {}
+[20.642886] (wall_follower) StdoutLine: {'line': b'running develop\n'}
+[20.725478] (-) TimerEvent: {}
+[20.826022] (-) TimerEvent: {}
+[20.926604] (-) TimerEvent: {}
+[21.027204] (-) TimerEvent: {}
+[21.127895] (-) TimerEvent: {}
+[21.228480] (-) TimerEvent: {}
+[21.329161] (-) TimerEvent: {}
+[21.429609] (-) TimerEvent: {}
+[21.530170] (-) TimerEvent: {}
+[21.630795] (-) TimerEvent: {}
+[21.731539] (-) TimerEvent: {}
+[21.832200] (-) TimerEvent: {}
+[21.922482] (wall_follower) StdoutLine: {'line': b'running egg_info\n'}
+[21.924290] (wall_follower) StdoutLine: {'line': b'writing wall_follower.egg-info/PKG-INFO\n'}
+[21.931861] (wall_follower) StdoutLine: {'line': b'writing dependency_links to wall_follower.egg-info/dependency_links.txt\n'}
+[21.932821] (-) TimerEvent: {}
+[21.938121] (wall_follower) StdoutLine: {'line': b'writing entry points to wall_follower.egg-info/entry_points.txt\n'}
+[21.945354] (wall_follower) StdoutLine: {'line': b'writing requirements to wall_follower.egg-info/requires.txt\n'}
+[21.963943] (wall_follower) StdoutLine: {'line': b'writing top-level names to wall_follower.egg-info/top_level.txt\n'}
+[22.032983] (-) TimerEvent: {}
+[22.133517] (-) TimerEvent: {}
+[22.234301] (-) TimerEvent: {}
+[22.258440] (wall_follower) StdoutLine: {'line': b"reading manifest file 'wall_follower.egg-info/SOURCES.txt'\n"}
+[22.334441] (-) TimerEvent: {}
+[22.434954] (-) TimerEvent: {}
+[22.535624] (-) TimerEvent: {}
+[22.539123] (wall_follower) StdoutLine: {'line': b"writing manifest file 'wall_follower.egg-info/SOURCES.txt'\n"}
+[22.609957] (wall_follower) StdoutLine: {'line': b'running build_ext\n'}
+[22.611391] (wall_follower) StdoutLine: {'line': b'Creating /work/install/wall_follower/lib/python3.10/site-packages/wall-follower.egg-link (link to .)\n'}
+[22.635775] (-) TimerEvent: {}
+[22.646507] (wall_follower) StdoutLine: {'line': b'Installing amcl_initializer script to /work/install/wall_follower/lib/wall_follower\n'}
+[22.682536] (wall_follower) StdoutLine: {'line': b'Installing topic2_nav2_traffic_rules script to /work/install/wall_follower/lib/wall_follower\n'}
+[22.721345] (wall_follower) StdoutLine: {'line': b'Installing topic2_yolo_counter script to /work/install/wall_follower/lib/wall_follower\n'}
+[22.735897] (-) TimerEvent: {}
+[22.758031] (wall_follower) StdoutLine: {'line': b'Installing topic2_yolo_landmark_bridge script to /work/install/wall_follower/lib/wall_follower\n'}
+[22.792432] (wall_follower) StdoutLine: {'line': b'Installing wall_follower_node script to /work/install/wall_follower/lib/wall_follower\n'}
+[22.831344] (wall_follower) StdoutLine: {'line': b'\n'}
+[22.832467] (wall_follower) StdoutLine: {'line': b'Installed /work/build/wall_follower\n'}
+[22.836016] (-) TimerEvent: {}
+[22.837002] (wall_follower) StdoutLine: {'line': b'running symlink_data\n'}
+[22.936154] (-) TimerEvent: {}
+[23.036760] (-) TimerEvent: {}
+[23.137381] (-) TimerEvent: {}
+[23.237906] (-) TimerEvent: {}
+[23.338595] (-) TimerEvent: {}
+[23.439176] (-) TimerEvent: {}
+[23.539865] (-) TimerEvent: {}
+[23.635162] (wall_follower) CommandEnded: {'returncode': 0}
+[23.639976] (-) TimerEvent: {}
+[23.740517] (-) TimerEvent: {}
+[23.841200] (-) TimerEvent: {}
+[23.941875] (-) TimerEvent: {}
+[24.042475] (-) TimerEvent: {}
+[24.160195] (-) TimerEvent: {}
+[24.274156] (-) TimerEvent: {}
+[24.397341] (-) TimerEvent: {}
+[24.497964] (-) TimerEvent: {}
+[24.598550] (-) TimerEvent: {}
+[24.699292] (-) TimerEvent: {}
+[24.800076] (-) TimerEvent: {}
+[24.844071] (wall_follower) JobEnded: {'identifier': 'wall_follower', 'rc': 0}
+[24.856682] (-) EventReactorShutdown: {}

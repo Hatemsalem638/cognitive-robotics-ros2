@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.003829] (-) JobUnselected: {'identifier': 'ntu_robotsim'}
+[0.004928] (-) JobUnselected: {'identifier': 'octomap_msgs'}
+[0.017334] (-) JobUnselected: {'identifier': 'octomap_server2'}
+[0.018029] (-) JobUnselected: {'identifier': 'odom_to_tf_ros2'}
+[0.018515] (-) JobUnselected: {'identifier': 'pcl_conversions'}
+[0.025623] (-) JobUnselected: {'identifier': 'pcl_msgs'}
+[0.029580] (-) JobUnselected: {'identifier': 'pcl_ros'}
+[0.032270] (-) JobUnselected: {'identifier': 'perception_pcl'}
+[0.032698] (-) JobUnselected: {'identifier': 'scan_filter'}
+[0.032994] (-) JobUnselected: {'identifier': 'simple_robot_description'}
+[0.034098] (-) JobUnselected: {'identifier': 'wall_follower'}
+[0.034903] (-) JobUnselected: {'identifier': 'yolo_msgs'}
+[0.035166] (yolo_ros) JobQueued: {'identifier': 'yolo_ros', 'dependencies': OrderedDict([('yolo_msgs', '/work/install/yolo_msgs')])}
+[0.035470] (yolo_ros) JobStarted: {'identifier': 'yolo_ros'}
+[0.088541] (-) TimerEvent: {}
+[0.194115] (-) TimerEvent: {}
+[0.295327] (-) TimerEvent: {}
+[0.397051] (-) TimerEvent: {}
+[0.498655] (-) TimerEvent: {}
+[0.603476] (-) TimerEvent: {}
+[0.715672] (-) TimerEvent: {}
+[0.819497] (-) TimerEvent: {}
+[0.922226] (-) TimerEvent: {}
+[1.027313] (-) TimerEvent: {}
+[1.128533] (-) TimerEvent: {}
+[1.232174] (-) TimerEvent: {}
+[1.334542] (-) TimerEvent: {}
+[1.437543] (-) TimerEvent: {}
+[1.539137] (-) TimerEvent: {}
+[1.640016] (-) TimerEvent: {}
+[1.744606] (-) TimerEvent: {}
+[1.852314] (-) TimerEvent: {}
+[1.984727] (-) TimerEvent: {}
+[2.085527] (-) TimerEvent: {}
+[2.186552] (-) TimerEvent: {}
+[2.288180] (-) TimerEvent: {}
+[2.389134] (-) TimerEvent: {}
+[2.491269] (-) TimerEvent: {}
+[2.592970] (-) TimerEvent: {}
+[2.696416] (-) TimerEvent: {}
+[2.798625] (-) TimerEvent: {}
+[2.901004] (-) TimerEvent: {}
+[3.004384] (-) TimerEvent: {}
+[3.117702] (-) TimerEvent: {}
+[3.219030] (-) TimerEvent: {}
+[3.329558] (-) TimerEvent: {}
+[3.436270] (-) TimerEvent: {}
+[3.539467] (-) TimerEvent: {}
+[3.640558] (-) TimerEvent: {}
+[3.744258] (-) TimerEvent: {}
+[3.845792] (-) TimerEvent: {}
+[3.948129] (-) TimerEvent: {}
+[4.057760] (-) TimerEvent: {}
+[4.159934] (-) TimerEvent: {}
+[4.264217] (-) TimerEvent: {}
+[4.365155] (-) TimerEvent: {}
+[4.472225] (-) TimerEvent: {}
+[4.581463] (-) TimerEvent: {}
+[4.683323] (-) TimerEvent: {}
+[4.788667] (-) TimerEvent: {}
+[4.891358] (-) TimerEvent: {}
+[4.997479] (-) TimerEvent: {}
+[5.098700] (-) TimerEvent: {}
+[5.199533] (-) TimerEvent: {}
+[5.300974] (-) TimerEvent: {}
+[5.402110] (-) TimerEvent: {}
+[5.504583] (-) TimerEvent: {}
+[5.605872] (-) TimerEvent: {}
+[5.707094] (-) TimerEvent: {}
+[5.809349] (-) TimerEvent: {}
+[5.910598] (-) TimerEvent: {}
+[6.014272] (-) TimerEvent: {}
+[6.115103] (-) TimerEvent: {}
+[6.216619] (-) TimerEvent: {}
+[6.321305] (-) TimerEvent: {}
+[6.428206] (-) TimerEvent: {}
+[6.530058] (-) TimerEvent: {}
+[6.635363] (-) TimerEvent: {}
+[6.756214] (-) TimerEvent: {}
+[6.857435] (-) TimerEvent: {}
+[6.959226] (-) TimerEvent: {}
+[7.068224] (-) TimerEvent: {}
+[7.172370] (-) TimerEvent: {}
+[7.280810] (-) TimerEvent: {}
+[7.383447] (-) TimerEvent: {}
+[7.487825] (-) TimerEvent: {}
+[7.590629] (-) TimerEvent: {}
+[7.693730] (-) TimerEvent: {}
+[7.799160] (-) TimerEvent: {}
+[7.900239] (-) TimerEvent: {}
+[8.002821] (-) TimerEvent: {}
+[8.104176] (-) TimerEvent: {}
+[8.207690] (-) TimerEvent: {}
+[8.308669] (-) TimerEvent: {}
+[8.422621] (-) TimerEvent: {}
+[8.531723] (-) TimerEvent: {}
+[8.632856] (-) TimerEvent: {}
+[8.738550] (-) TimerEvent: {}
+[8.847563] (-) TimerEvent: {}
+[8.953148] (-) TimerEvent: {}
+[9.055876] (-) TimerEvent: {}
+[9.159015] (-) TimerEvent: {}
+[9.207518] (yolo_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/work/build/yolo_ros/build', '--no-deps', 'symlink_data'], 'cwd': '/work/build/yolo_ros', 'env': {'HOSTNAME': 'f339f6da0e4a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/work/install/yolo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/work', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/work/install/yolo_msgs:/opt/ros/humble', 'PWD': '/work/build/yolo_ros', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/work/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/yolo_ros/lib/python3.10/site-packages:/work/install/yolo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/work/install/yolo_msgs'}, 'shell': False}
+[9.260661] (-) TimerEvent: {}
+[9.361716] (-) TimerEvent: {}
+[9.469008] (-) TimerEvent: {}
+[9.569744] (-) TimerEvent: {}
+[9.670815] (-) TimerEvent: {}
+[9.773673] (-) TimerEvent: {}
+[9.876260] (-) TimerEvent: {}
+[9.981256] (-) TimerEvent: {}
+[10.103009] (-) TimerEvent: {}
+[10.213220] (-) TimerEvent: {}
+[10.317019] (-) TimerEvent: {}
+[10.417671] (-) TimerEvent: {}
+[10.520514] (-) TimerEvent: {}
+[10.621485] (-) TimerEvent: {}
+[10.724009] (-) TimerEvent: {}
+[10.825144] (-) TimerEvent: {}
+[10.926129] (-) TimerEvent: {}
+[11.028940] (-) TimerEvent: {}
+[11.130581] (-) TimerEvent: {}
+[11.231288] (-) TimerEvent: {}
+[11.332251] (-) TimerEvent: {}
+[11.434227] (-) TimerEvent: {}
+[11.539148] (-) TimerEvent: {}
+[11.642316] (-) TimerEvent: {}
+[11.743223] (-) TimerEvent: {}
+[11.845405] (-) TimerEvent: {}
+[11.947902] (-) TimerEvent: {}
+[12.049094] (-) TimerEvent: {}
+[12.152189] (-) TimerEvent: {}
+[12.253284] (-) TimerEvent: {}
+[12.355129] (-) TimerEvent: {}
+[12.456199] (-) TimerEvent: {}
+[12.560354] (-) TimerEvent: {}
+[12.668213] (-) TimerEvent: {}
+[12.769078] (-) TimerEvent: {}
+[12.871316] (-) TimerEvent: {}
+[12.975646] (-) TimerEvent: {}
+[13.076810] (-) TimerEvent: {}
+[13.180195] (-) TimerEvent: {}
+[13.287656] (-) TimerEvent: {}
+[13.394433] (-) TimerEvent: {}
+[13.495208] (-) TimerEvent: {}
+[13.542019] (yolo_ros) StdoutLine: {'line': b'running develop\n'}
+[13.599544] (-) TimerEvent: {}
+[13.702031] (-) TimerEvent: {}
+[13.803292] (-) TimerEvent: {}
+[13.910880] (-) TimerEvent: {}
+[14.012201] (-) TimerEvent: {}
+[14.113276] (-) TimerEvent: {}
+[14.214560] (-) TimerEvent: {}
+[14.318418] (-) TimerEvent: {}
+[14.419548] (-) TimerEvent: {}
+[14.521366] (-) TimerEvent: {}
+[14.625352] (-) TimerEvent: {}
+[14.726571] (-) TimerEvent: {}
+[14.828046] (-) TimerEvent: {}
+[14.832425] (yolo_ros) StdoutLine: {'line': b'running egg_info\n'}
+[14.834338] (yolo_ros) StdoutLine: {'line': b'writing yolo_ros.egg-info/PKG-INFO\n'}
+[14.850430] (yolo_ros) StdoutLine: {'line': b'writing dependency_links to yolo_ros.egg-info/dependency_links.txt\n'}
+[14.878867] (yolo_ros) StdoutLine: {'line': b'writing entry points to yolo_ros.egg-info/entry_points.txt\n'}
+[14.882611] (yolo_ros) StdoutLine: {'line': b'writing requirements to yolo_ros.egg-info/requires.txt\n'}
+[14.898928] (yolo_ros) StdoutLine: {'line': b'writing top-level names to yolo_ros.egg-info/top_level.txt\n'}
+[14.928240] (-) TimerEvent: {}
+[15.034498] (-) TimerEvent: {}
+[15.145156] (-) TimerEvent: {}
+[15.192256] (yolo_ros) StdoutLine: {'line': b"reading manifest file 'yolo_ros.egg-info/SOURCES.txt'\n"}
+[15.248209] (-) TimerEvent: {}
+[15.349964] (-) TimerEvent: {}
+[15.450867] (-) TimerEvent: {}
+[15.556401] (-) TimerEvent: {}
+[15.657953] (-) TimerEvent: {}
+[15.747624] (yolo_ros) StdoutLine: {'line': b"writing manifest file 'yolo_ros.egg-info/SOURCES.txt'\n"}
+[15.758147] (-) TimerEvent: {}
+[15.790439] (yolo_ros) StdoutLine: {'line': b'running build_ext\n'}
+[15.792467] (yolo_ros) StdoutLine: {'line': b'Creating /work/install/yolo_ros/lib/python3.10/site-packages/yolo-ros.egg-link (link to .)\n'}
+[15.858526] (-) TimerEvent: {}
+[15.876756] (yolo_ros) StdoutLine: {'line': b'Installing curiosity_explorer script to /work/install/yolo_ros/lib/yolo_ros\n'}
+[15.952139] (yolo_ros) StdoutLine: {'line': b'Installing goal_publisher script to /work/install/yolo_ros/lib/yolo_ros\n'}
+[15.958820] (-) TimerEvent: {}
+[16.040569] (yolo_ros) StdoutLine: {'line': b'Installing landmark_db script to /work/install/yolo_ros/lib/yolo_ros\n'}
+[16.059393] (-) TimerEvent: {}
+[16.094808] (yolo_ros) StdoutLine: {'line': b'Installing resource_monitor script to /work/install/yolo_ros/lib/yolo_ros\n'}
+[16.158753] (yolo_ros) StdoutLine: {'line': b'Installing sign_controller script to /work/install/yolo_ros/lib/yolo_ros\n'}
+[16.161284] (-) TimerEvent: {}
+[16.212366] (yolo_ros) StdoutLine: {'line': b'Installing yolo_node script to /work/install/yolo_ros/lib/yolo_ros\n'}
+[16.262254] (-) TimerEvent: {}
+[16.294947] (yolo_ros) StdoutLine: {'line': b'\n'}
+[16.300685] (yolo_ros) StdoutLine: {'line': b'Installed /work/build/yolo_ros\n'}
+[16.314410] (yolo_ros) StdoutLine: {'line': b'running symlink_data\n'}
+[16.362465] (-) TimerEvent: {}
+[16.467195] (-) TimerEvent: {}
+[16.567940] (-) TimerEvent: {}
+[16.668777] (-) TimerEvent: {}
+[16.691436] (yolo_ros) CommandEnded: {'returncode': 0}
+[16.769213] (-) TimerEvent: {}
+[16.875466] (-) TimerEvent: {}
+[16.981037] (-) TimerEvent: {}
+[17.085057] (-) TimerEvent: {}
+[17.196863] (-) TimerEvent: {}
+[17.297864] (-) TimerEvent: {}
+[17.398780] (-) TimerEvent: {}
+[17.501344] (-) TimerEvent: {}
+[17.603883] (-) TimerEvent: {}
+[17.707937] (-) TimerEvent: {}
+[17.808963] (-) TimerEvent: {}
+[17.909750] (-) TimerEvent: {}
+[17.923610] (yolo_ros) JobEnded: {'identifier': 'yolo_ros', 'rc': 0}
+[17.963646] (-) EventReactorShutdown: {}

@@ -1,0 +1,26 @@
+[13.842s] Invoking command in '/work/build/wall_follower': AMENT_PREFIX_PATH=/work/install/yolo_msgs:/work/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/work/install/yolo_msgs:/work/install/octomap_msgs LD_LIBRARY_PATH=/work/install/yolo_msgs/lib:/work/install/octomap_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/work/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/wall_follower/lib/python3.10/site-packages:/work/install/yolo_msgs/local/lib/python3.10/dist-packages:/work/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/wall_follower/build --no-deps symlink_data
+[19.878s] running develop
+[21.503s] running egg_info
+[21.505s] writing wall_follower.egg-info/PKG-INFO
+[21.517s] writing dependency_links to wall_follower.egg-info/dependency_links.txt
+[21.533s] writing entry points to wall_follower.egg-info/entry_points.txt
+[21.546s] writing requirements to wall_follower.egg-info/requires.txt
+[21.576s] writing top-level names to wall_follower.egg-info/top_level.txt
+[22.527s] reading manifest file 'wall_follower.egg-info/SOURCES.txt'
+[23.644s] writing manifest file 'wall_follower.egg-info/SOURCES.txt'
+[23.735s] running build_ext
+[23.743s] Creating /work/install/wall_follower/lib/python3.10/site-packages/wall-follower.egg-link (link to .)
+[23.876s] Installing amcl_initializer script to /work/install/wall_follower/lib/wall_follower
+[23.937s] Installing topic2_goal_pose_bridge script to /work/install/wall_follower/lib/wall_follower
+[23.990s] Installing topic2_mapping_tf script to /work/install/wall_follower/lib/wall_follower
+[24.067s] Installing topic2_nav2_tf_helper script to /work/install/wall_follower/lib/wall_follower
+[24.148s] Installing topic2_nav2_traffic_rules script to /work/install/wall_follower/lib/wall_follower
+[24.261s] Installing topic2_pointcloud_filter script to /work/install/wall_follower/lib/wall_follower
+[24.338s] Installing topic2_relay_adapters script to /work/install/wall_follower/lib/wall_follower
+[24.446s] Installing topic2_yolo_counter script to /work/install/wall_follower/lib/wall_follower
+[24.620s] Installing topic2_yolo_landmark_bridge script to /work/install/wall_follower/lib/wall_follower
+[24.703s] Installing wall_follower_node script to /work/install/wall_follower/lib/wall_follower
+[24.810s] 
+[24.815s] Installed /work/build/wall_follower
+[24.817s] running symlink_data
+[27.183s] Invoked command in '/work/build/wall_follower' returned '0': AMENT_PREFIX_PATH=/work/install/yolo_msgs:/work/install/octomap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/work/install/yolo_msgs:/work/install/octomap_msgs LD_LIBRARY_PATH=/work/install/yolo_msgs/lib:/work/install/octomap_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/work/build/wall_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/install/wall_follower/lib/python3.10/site-packages:/work/install/yolo_msgs/local/lib/python3.10/dist-packages:/work/install/octomap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /work/build/wall_follower/build --no-deps symlink_data

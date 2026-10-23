@@ -1,0 +1,189 @@
+[3.339s] Invoking command in '/work/build/octomap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /work/build/octomap_msgs -- -j20 -l20
+[9.540s] [  1%] Built target octomap_msgs__rs
+[10.268s] [  3%] Built target octomap_msgs__cpp
+[10.286s] [  3%] Built target ament_cmake_python_symlink_octomap_msgs
+[11.046s] [ 14%] Built target octomap_msgs__rosidl_generator_c
+[14.544s] [ 25%] Built target octomap_msgs__rosidl_typesupport_cpp
+[14.976s] [ 35%] Built target octomap_msgs__rosidl_typesupport_introspection_cpp
+[15.411s] [ 46%] Built target octomap_msgs__rosidl_typesupport_fastrtps_cpp
+[15.814s] [ 57%] Built target octomap_msgs__rosidl_typesupport_c
+[16.495s] [ 67%] Built target octomap_msgs__rosidl_typesupport_introspection_c
+[16.913s] [ 78%] Built target octomap_msgs__rosidl_typesupport_fastrtps_c
+[20.813s] running egg_info
+[20.817s] writing octomap_msgs.egg-info/PKG-INFO
+[20.838s] writing dependency_links to octomap_msgs.egg-info/dependency_links.txt
+[20.862s] [ 78%] Built target octomap_msgs
+[20.915s] writing top-level names to octomap_msgs.egg-info/top_level.txt
+[21.310s] reading manifest file 'octomap_msgs.egg-info/SOURCES.txt'
+[21.708s] writing manifest file 'octomap_msgs.egg-info/SOURCES.txt'
+[23.107s] [ 78%] Built target ament_cmake_python_build_octomap_msgs_egg
+[24.939s] [ 80%] Built target octomap_msgs__py
+[28.502s] [ 89%] Built target octomap_msgs__rosidl_generator_py
+[31.667s] [ 92%] Built target octomap_msgs__rosidl_typesupport_c__pyext
+[31.789s] [ 96%] Built target octomap_msgs__rosidl_typesupport_introspection_c__pyext
+[31.899s] [100%] Built target octomap_msgs__rosidl_typesupport_fastrtps_c__pyext
+[34.172s] Invoked command in '/work/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --build /work/build/octomap_msgs -- -j20 -l20
+[34.317s] Invoking command in '/work/build/octomap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /work/build/octomap_msgs
+[35.595s] -- Install configuration: "Release"
+[35.678s] -- Execute custom install script
+[35.927s] -- Up-to-date symlink: /work/install/octomap_msgs/share/ament_index/resource_index/rosidl_interfaces/octomap_msgs
+[36.958s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__functions.h
+[37.217s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.h
+[37.473s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__type_support.h
+[37.773s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__functions.h
+[38.139s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.h
+[38.381s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.h
+[38.568s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/octomap.h
+[38.756s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.h
+[38.985s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_c__visibility_control.h
+[39.177s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/bounding_box_query.h
+[39.423s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__functions.h
+[39.689s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__struct.h
+[39.914s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__type_support.h
+[40.184s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__functions.h
+[40.458s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__struct.h
+[40.752s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__type_support.h
+[40.974s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/get_octomap.h
+[41.066s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/environment/library_path.sh
+[41.190s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/environment/library_path.dsv
+[42.358s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__rosidl_typesupport_fastrtps_c.h
+[42.576s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__rosidl_typesupport_fastrtps_c.h
+[42.758s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[42.940s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__rosidl_typesupport_fastrtps_c.h
+[43.156s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__rosidl_typesupport_fastrtps_c.h
+[43.814s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__rosidl_typesupport_introspection_c.h
+[44.042s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__rosidl_typesupport_introspection_c.h
+[44.208s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[44.395s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__rosidl_typesupport_introspection_c.h
+[44.586s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__rosidl_typesupport_introspection_c.h
+[45.611s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__builder.hpp
+[45.851s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp
+[46.056s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp
+[46.292s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__type_support.hpp
+[46.571s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp
+[46.795s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp
+[47.034s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp
+[47.224s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp
+[47.376s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/octomap.hpp
+[47.506s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp
+[47.668s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[47.875s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/bounding_box_query.hpp
+[48.086s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__builder.hpp
+[48.250s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__struct.hpp
+[48.430s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__traits.hpp
+[48.611s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__type_support.hpp
+[48.798s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__builder.hpp
+[48.996s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__struct.hpp
+[49.198s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__traits.hpp
+[49.380s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__type_support.hpp
+[49.545s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/get_octomap.hpp
+[50.707s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__rosidl_typesupport_fastrtps_cpp.hpp
+[50.886s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[51.070s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[51.298s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__rosidl_typesupport_fastrtps_cpp.hpp
+[51.466s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__rosidl_typesupport_fastrtps_cpp.hpp
+[52.000s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap__rosidl_typesupport_introspection_cpp.hpp
+[52.203s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__rosidl_typesupport_introspection_cpp.hpp
+[52.380s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/bounding_box_query__rosidl_typesupport_introspection_cpp.hpp
+[52.622s] -- Up-to-date symlink: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/srv/detail/get_octomap__rosidl_typesupport_introspection_cpp.hpp
+[52.728s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/environment/pythonpath.sh
+[52.785s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/environment/pythonpath.dsv
+[53.046s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs-2.0.1-py3.10.egg-info/PKG-INFO
+[53.181s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs-2.0.1-py3.10.egg-info/SOURCES.txt
+[53.324s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs-2.0.1-py3.10.egg-info/dependency_links.txt
+[53.435s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs-2.0.1-py3.10.egg-info/top_level.txt
+[54.577s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/__init__.py
+[54.696s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/_octomap_msgs_s.ep.rosidl_typesupport_c.c
+[54.814s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/_octomap_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[54.899s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/_octomap_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[55.012s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/liboctomap_msgs__rosidl_generator_py.so
+[55.140s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/__init__.py
+[55.265s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap.py
+[55.410s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap_s.c
+[55.527s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap_with_pose.py
+[55.679s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg/_octomap_with_pose_s.c
+[55.794s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[55.908s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[56.010s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[56.204s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/__init__.py
+[56.382s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_bounding_box_query.py
+[56.551s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_bounding_box_query_s.c
+[56.692s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_get_octomap.py
+[56.834s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv/_get_octomap_s.c
+[56.982s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[57.130s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[57.259s] -- Up-to-date symlink: /work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/octomap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[57.458s] -- Up-to-date symlink: /work/install/octomap_msgs/share/ament_index/resource_index/rust_packages/octomap_msgs
+[57.917s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/rust/Cargo.toml
+[58.006s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/rust/build.rs
+[58.128s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/rust/src/lib.rs
+[58.265s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/rust/src/msg.rs
+[58.469s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/rust/src/msg/rmw.rs
+[58.599s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/rust/src/srv.rs
+[58.783s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/rust/src/srv/rmw.rs
+[58.892s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/msg/Octomap.idl
+[58.957s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/msg/OctomapWithPose.idl
+[59.066s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery.idl
+[59.165s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap.idl
+[59.311s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/msg/Octomap.msg
+[59.435s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/msg/OctomapWithPose.msg
+[59.578s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery.srv
+[59.665s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery_Request.msg
+[59.735s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/srv/BoundingBoxQuery_Response.msg
+[59.895s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap.srv
+[59.981s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap_Request.msg
+[60.073s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/srv/GetOctomap_Response.msg
+[60.234s] -- Up-to-date symlink: /work/install/octomap_msgs/share/ament_index/resource_index/package_run_dependencies/octomap_msgs
+[60.392s] -- Up-to-date symlink: /work/install/octomap_msgs/share/ament_index/resource_index/parent_prefix_path/octomap_msgs
+[60.452s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/environment/ament_prefix_path.sh
+[60.522s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/environment/ament_prefix_path.dsv
+[60.573s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/environment/path.sh
+[60.614s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/environment/path.dsv
+[60.672s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/local_setup.bash
+[60.736s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/local_setup.sh
+[60.789s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/local_setup.zsh
+[60.837s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/local_setup.dsv
+[60.852s] -- Symlinking: /work/install/octomap_msgs/share/octomap_msgs/package.dsv
+[61.958s] -- Up-to-date symlink: /work/install/octomap_msgs/share/ament_index/resource_index/packages/octomap_msgs
+[62.024s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/cmake/rosidl_cmake-extras.cmake
+[62.071s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[62.134s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[62.224s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[62.279s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[62.364s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[62.409s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[62.477s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgsConfig.cmake
+[62.540s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgsConfig-version.cmake
+[62.627s] -- Up-to-date symlink: /work/install/octomap_msgs/share/octomap_msgs/package.xml
+[62.700s] -- Up-to-date: /work/install/octomap_msgs/lib/liboctomap_msgs__rosidl_generator_c.so
+[62.828s] -- Up-to-date: /work/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_c.so
+[62.984s] -- Up-to-date: /work/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_introspection_c.so
+[63.131s] -- Up-to-date: /work/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_c.so
+[63.269s] -- Up-to-date: /work/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_cpp.so
+[63.416s] -- Up-to-date: /work/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_introspection_cpp.so
+[63.526s] -- Up-to-date: /work/install/octomap_msgs/lib/liboctomap_msgs__rosidl_typesupport_cpp.so
+[67.242s] Listing '/work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs'...
+[67.247s] Listing '/work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/msg'...
+[67.250s] Listing '/work/install/octomap_msgs/local/lib/python3.10/dist-packages/octomap_msgs/srv'...
+[67.356s] -- Up-to-date: /work/install/octomap_msgs/lib/liboctomap_msgs__rosidl_generator_py.so
+[67.516s] -- Up-to-date: /work/install/octomap_msgs/include/octomap_msgs
+[67.613s] -- Up-to-date: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs
+[67.720s] -- Up-to-date: /work/install/octomap_msgs/include/octomap_msgs/octomap_msgs/conversions.h
+[67.867s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_cExport.cmake
+[68.004s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_cExport-release.cmake
+[68.193s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[68.301s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[68.477s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_introspection_cExport.cmake
+[68.596s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[68.769s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_cExport.cmake
+[68.871s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_cExport-release.cmake
+[69.078s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_cppExport.cmake
+[69.305s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[69.433s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[69.620s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[69.718s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[69.921s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_cppExport.cmake
+[70.031s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/octomap_msgs__rosidl_typesupport_cppExport-release.cmake
+[70.170s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_pyExport.cmake
+[70.252s] -- Up-to-date: /work/install/octomap_msgs/share/octomap_msgs/cmake/export_octomap_msgs__rosidl_generator_pyExport-release.cmake
+[70.356s] Invoked command in '/work/build/octomap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/work/install/wall_follower:/work/install/scan_filter:/opt/ros/humble /usr/bin/cmake --install /work/build/octomap_msgs
